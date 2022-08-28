@@ -55,7 +55,7 @@ html {
 .logo {
     width: 65px;
     height: 65px;
-    background-image: url(../assets/wh_logo_circle.png);
+    background-image: url(/assets/wh_logo_circle.png);
     background-size: contain;
 }
 
@@ -107,7 +107,7 @@ html {
 #home {
     height: 100vh;
     min-height: 500px;
-    background: url(../assets/background.jpg) no-repeat scroll center;
+    background: url(/assets/background.jpg) no-repeat scroll center;
     background-size: cover;
     background-attachment: fixed;
 }
