@@ -430,7 +430,7 @@ section {
     width: 100%;
     height: 100%;
     z-index: 1;
-    background-color: #0055b3cc;
+    background-color: #5555557f;
     transition: .3s linear;
 }
 
@@ -440,7 +440,7 @@ section {
     bottom: 40px;
     left: 40px;
     color: #ffffff;
-    transition: .3s linear;
+    transition: .4s linear;
 }
 
 .share-btn {
