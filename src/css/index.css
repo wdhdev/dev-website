@@ -307,12 +307,12 @@ section {
     cursor: pointer;
     overflow: hidden;
     position: relative;
-    border-radius: 100%;
+    border-radius: 40px;
     transition: .3s;
 }
 
 .share-btn:hover {
-    border-radius: 40px;
+    border-radius: 0;
 }
 
 .share-sm {
@@ -343,9 +343,9 @@ section {
     transition-delay: 60ms;
 }
 
-/* .share-sm a:nth-child(3) {
+.share-sm a:nth-child(3) {
     transition-delay: 120ms;
-} */
+}
   
 .share-btn:hover .text,
 .share-btn:hover .icon,
