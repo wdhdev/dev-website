@@ -222,11 +222,11 @@ section {
     flex: 1;
 }
 
-.about-text h3 {
+/* .about-text h3 {
     margin: 8px 0;
     color: #444444;
     font-size: 16px;
-}
+} */
 
 /* .about-text h3 span:nth-child(1):after,
 .about-text h3 span:nth-child(2):after {
@@ -359,8 +359,8 @@ section {
     position: fixed;
     bottom: 25px;
     left: 25px;
-    z-index: 99;
     transition: .3s;
+    z-index: 97;
 }
   
 .share-sm {
@@ -410,7 +410,6 @@ section {
     background: linear-gradient(30deg, #3498db, #5363d8);
     color: #ffffff;
     position: fixed;
-    z-index: 99;
     bottom: 25px;
     right: 25px;
     width: 40px;
@@ -419,6 +418,7 @@ section {
     border-radius: 100%;
     font-size: 20px;
     cursor: pointer;
+    z-index: 97;
 }
 
 @media screen and (max-width: 980px) {
