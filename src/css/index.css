@@ -296,6 +296,63 @@ section {
     width: 50%;
 }
 
+.share-btn {
+    background: linear-gradient(30deg, #3498db, #5363d8);
+    color: #fff;
+    font-family: "Montserrat";
+    border: 0;
+    padding: 16px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    border-radius: 40px;
+    transition: .3s;
+}
+  
+.share-sm {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    bottom: 0;
+    transform: translateY(100%);
+}
+  
+.share-sm a {
+    color: #fff;
+    transition: .3s;
+}
+  
+.text, .icon {
+    display: inline-block;
+    transition: .3s;
+}
+  
+.icon {
+    transition-delay: 60ms;
+}
+  
+.share-sm a:nth-child(2) {
+    transition-delay: 60ms;
+}
+  
+.share-sm a:nth-child(3) {
+    transition-delay: 120ms;
+}
+  
+.share-btn:hover .text,
+.share-btn:hover .icon,
+.share-btn:hover .share-sm a {
+    transform: translateY(-40px);
+}
+  
+.share-sm a:hover {
+    opacity: .7;
+}
+
 .goTop {
     display: none;
     color: #ffffff;
