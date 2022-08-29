@@ -406,7 +406,7 @@ section {
     width: 90%;
     border-radius: 6px;
     background: #4070f4;
-    animation: progress 0.4s ease-in-out forwards;
+    animation: progress 1s ease-in-out forwards;
     opacity: 0;
 }
 
@@ -415,19 +415,19 @@ section {
     animation-delay: 0.1s;
 }
 
+.skill-per.nodejs {
+    width: 85%;
+    animation-delay: 0.4s;
+}
+
 .skill-per.css {
-    width: 75%;
+    width: 60%;
     animation-delay: 0.2s;
 }
 
 .skill-per.js {
     width: 75%;
     animation-delay: 0.3s;
-}
-
-.skill-per.nodejs {
-    width: 85%;
-    animation-delay: 0.4s;
 }
 
 @keyframes progress {
