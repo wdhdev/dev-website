@@ -30,12 +30,12 @@ html {
     scroll-behavior: smooth;
 }
 
-.link {
+.a {
     color: #0055b3;
     transition: .3s linear;
 }
 
-.link:hover {
+.a:hover {
     color: #0055b3b2;
 }
 
