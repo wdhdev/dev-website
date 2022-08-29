@@ -140,6 +140,10 @@ a:hover {
     margin-bottom: 60px;
 }
 
+.typewriter {
+    color: #ffffff;
+}
+
 .sm a {
     color: #ffffff;
     font-size: 24px;
@@ -148,7 +152,7 @@ a:hover {
 }
 
 .sm a:hover {
-    color: #ffffff7f;
+    opacity: .7;
 }
 
 #home .buttons {
