@@ -296,7 +296,7 @@ section {
 
 .skill-per.nodejs {
     width: 85%;
-    animation-delay: 0.4s;
+    animation-delay: 0.2s;
 }
 
 .skill-per.js {
@@ -306,7 +306,7 @@ section {
 
 .skill-per.css {
     width: 60%;
-    animation-delay: 0.2s;
+    animation-delay: 0.4s;
 }
 
 @keyframes progress {
