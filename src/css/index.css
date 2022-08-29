@@ -224,7 +224,6 @@ section {
 
 .about-text h3 {
     margin: 8px 0;
-    margin-top: -2px;
     color: #333333;
     font-size: 16px;
 }
@@ -241,6 +240,7 @@ section {
 } */
 
 .about-sm a {
+    margin-top: 2px;
     color: #000000;
     font-size: 22px;
     transition: .3s linear;
@@ -254,7 +254,7 @@ section {
     font-size: 16px;
     text-align: justify;
     line-height: 26px;
-    margin-top: 12px;
+    margin-top: 10px;
 }
 
 .skills {
