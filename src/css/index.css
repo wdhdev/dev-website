@@ -369,7 +369,7 @@ section {
 }
 
 .block {
-    width: calc(50% - 20px);
+    width: 100%;
     background: #ffffff;
     border: 1px solid #dddddd;
     margin: 10px 0;
@@ -402,6 +402,12 @@ section {
 .block h3 {
     font-size: 16px;
     margin: 10px 0;
+    color: #0055b3;
+    transition: .3s linear;
+}
+
+.block h3:hover {
+    color: #0055b3b2;
 }
 
 .block p {
