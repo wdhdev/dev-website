@@ -424,10 +424,6 @@ section {
     height: 100%;
 }
 
-.project p {
-    font-size: 16px;
-}
-
 .project::before {
     content: "";
     position: absolute;
@@ -452,6 +448,10 @@ section {
 .project:hover::before,
 .project:hover .info {
     opacity: 1;
+}
+
+.info p {
+    font-size: 14px;
 }
 
 .share-btn {
