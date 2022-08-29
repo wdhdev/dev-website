@@ -309,6 +309,9 @@ section {
     position: relative;
     border-radius: 40px;
     transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .share-btn:hover {
@@ -330,7 +333,7 @@ section {
     transition: .3s;
 }
 
-.text, .icon {
+.icon {
     display: inline-block;
     transition: .3s;
 }
