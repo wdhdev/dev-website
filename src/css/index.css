@@ -30,6 +30,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.link {
+    color: #0055b3;
+}
+
 .navbar {
     position: fixed;
     background-color: transparent;
@@ -231,10 +235,10 @@ section {
 } */
 
 .about-text p {
-    font-size: 17px;
+    font-size: 16px;
     text-align: justify;
     line-height: 26px;
-    margin-top: 20px;
+    margin-top: 18px;
 }
 
 .skills {
