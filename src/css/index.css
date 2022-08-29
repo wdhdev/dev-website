@@ -299,14 +299,14 @@ section {
     animation-delay: 0.4s;
 }
 
-.skill-per.css {
-    width: 60%;
-    animation-delay: 0.2s;
-}
-
 .skill-per.js {
     width: 75%;
     animation-delay: 0.3s;
+}
+
+.skill-per.css {
+    width: 60%;
+    animation-delay: 0.2s;
 }
 
 @keyframes progress {
