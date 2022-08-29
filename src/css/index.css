@@ -296,7 +296,17 @@ section {
     width: 50%;
 } */
 
-.skill-box {
+.container {
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    background: #ffffff;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+.container .skill-box {
     width: 100%;
     margin: 0 25px;
 }
@@ -327,22 +337,18 @@ section {
 
 .skill-per.html {
     width: 90%;
-    animation-delay: .1s;
 }
 
 .skill-per.css {
     width: 75%;
-    animation-delay: .2s;
 }
 
 .skill-per.js {
     width: 75%;
-    animation-delay: .3s;
 }
 
 .skill-per.node {
     width: 85%;
-    animation-delay: .4s;
 }
 
 @keyframes progress {
