@@ -448,7 +448,7 @@ section {
 }
 
 .project:hover img {
-    transform: scale(1.5);
+    transform: scale(1.6) rotate(25deg);
 }
 
 .project:hover::before,
