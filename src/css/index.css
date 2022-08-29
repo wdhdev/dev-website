@@ -370,7 +370,7 @@ section {
 }
 
 .block {
-    width: 100%;
+    width: calc(100% - 20px);
     background: #ffffff;
     border: 1px solid #dddddd;
     margin: 10px 0;
