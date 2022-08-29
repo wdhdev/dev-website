@@ -222,11 +222,11 @@ section {
     flex: 1;
 }
 
-/* .about-text h3 {
+.about-text h3 {
     margin: 8px 0;
     color: #444444;
     font-size: 16px;
-} */
+}
 
 /* .about-text h3 span:nth-child(1):after,
 .about-text h3 span:nth-child(2):after {
@@ -239,11 +239,22 @@ section {
     margin: 0 10px;
 } */
 
+.about-sm a {
+    color: #333333;
+    margin-left: 5px;
+    font-size: 20px;
+    transition: .3s linear;
+}
+
+.about-sm a:hover {
+    opacity: .7;
+}
+
 .about-text p {
     font-size: 16px;
     text-align: justify;
     line-height: 26px;
-    margin-top: 18px;
+    margin-top: 12px;
 }
 
 .skills {
