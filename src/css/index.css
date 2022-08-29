@@ -449,7 +449,6 @@ section {
 .project:hover::before,
 .project:hover .info {
     opacity: 1;
-    transform: scale(1);
 }
 
 .share-btn {
