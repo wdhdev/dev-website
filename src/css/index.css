@@ -253,7 +253,7 @@ section {
     flex-wrap: wrap;
 }
 
-.skill {
+/* .skill {
     width: calc(50% - 20px);
     margin: 15px 0;
 }
@@ -294,6 +294,87 @@ section {
 
 .ts:after {
     width: 50%;
+} */
+
+.skill-box {
+    width: 100%;
+    margin: 0 25px;
+}
+
+.skill-box .title {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.skill-box .skill-bar {
+    height: 8px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 6px;
+    background: rgba(0,0,0,0.1);
+}
+
+.skill-bar .skill-per {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 90%;
+    background-color: #0055b3;
+    animation: progress .4s ease-in-out forwards;
+}
+
+.skill-per.html {
+    width: 90%;
+    animation-delay: .1s;
+}
+
+.skill-per.css {
+    width: 75%;
+    animation-delay: .2s;
+}
+
+.skill-per.js {
+    width: 75%;
+    animation-delay: .3s;
+}
+
+.skill-per.node {
+    width: 85%;
+    animation-delay: .4s;
+}
+
+@keyframes progress {
+    0% {
+        width: 0;
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.skill-per .tooltip {
+    position: absolute;
+    right: -14px;
+    top: -28px;
+    font-size: 9px;
+    color: #ffffff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background-color: #0055b3;
+}
+
+.tooltip::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    height: 10px;
+    width: 10px;
+    background-color: #0055b3;
+    transform: translateY(-50%) rotate(40deg);
 }
 
 .goTop {
