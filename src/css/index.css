@@ -432,7 +432,7 @@ section {
     height: 100%;
     z-index: 1;
     background-color: #55555566;
-    transition: .3s linear;
+    transition: all .3s ease-out;
     opacity: 0;
 }
 
