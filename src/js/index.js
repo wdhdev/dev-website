@@ -2,10 +2,8 @@ $(document).ready(function() {
     $(window).scroll(function() {
         if(this.scrollY > 20) {
             $(".navbar").addClass("sticky");
-            $(".goTop").fadeIn();
         } else {
             $(".navbar").removeClass("sticky");
-            $(".goTop").fadeOut();
         }
     })
 
@@ -18,6 +16,4 @@ $(document).ready(function() {
             $(".navbar-menu").removeClass("active");
         })
     })
-
-    $(".goTop").click(function() { scroll(0, 0) });
 })
