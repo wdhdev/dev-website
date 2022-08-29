@@ -224,7 +224,8 @@ section {
 
 .about-text h3 {
     margin: 8px 0;
-    color: #444444;
+    margin-top: -4px;
+    color: #333333;
     font-size: 16px;
 }
 
@@ -241,7 +242,7 @@ section {
 
 .about-sm a {
     color: #000000;
-    font-size: 20px;
+    font-size: 22px;
     transition: .3s linear;
 }
 
