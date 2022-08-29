@@ -173,7 +173,7 @@ a:hover {
 
 section {
     padding: 100px 0;
-    background-color: #ffffff;
+    background-color: #f1f1f1;
 }
 
 .section-title {
@@ -261,15 +261,17 @@ section {
 }
 
 .container .skill-box {
-    width: 100%;
+    width: 50%;
     margin: 25px 0;
 }
+
 .skill-box .title {
     display: block;
     font-size: 14px;
     font-weight: 600;
     color: #333333;
 }
+
 .skill-box .skill-bar {
     height: 8px;
     width: 100%;
@@ -282,7 +284,6 @@ section {
     position: relative;
     display: block;
     height: 100%;
-    width: 90%;
     border-radius: 6px;
     background: #4070f4;
     animation: progress 1s ease-in-out forwards;
@@ -324,10 +325,10 @@ section {
     position: absolute;
     right: -14px;
     top: -28px;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 500;
     color: #ffffff;
-    padding: 2px 8px;
+    padding: 2px 6px;
     border-radius: 4px;
     background: #4070f4;
     z-index: 1;
@@ -345,16 +346,75 @@ section {
     transform: translateX(-50%) rotate(45deg);
 }
 
-.goTop {
-    display: none;
+.share-btn {
+    background: linear-gradient(30deg, #3498db, #5363d8);
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 10px;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 50%;
     color: #ffffff;
     position: fixed;
-    z-index: 97;
+    bottom: 25px;
+    left: 25px;
+    z-index: 99;
+    transition: .3s;
+}
+  
+.share-sm {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    transform: translateY(100%);
+}
+  
+.share-sm a {
+    color: #ffffff;
+}
+  
+.share-btn:hover {
+    padding: 16px 38px;
+    border-radius: 40px;
+}
+  
+.icon {
+    display: inline-block;
+    transition: .3s;
+    transition-delay: 60ms;
+}
+  
+.share-sm a:nth-child(2) {
+    transition-delay: 60ms;
+}
+  
+.share-sm a:nth-child(3) {
+    transition-delay: 120ms;
+}
+  
+.share-btn:hover .icon,
+.share-btn:hover .share-sm a {
+    transform: translateY(-40px);
+}
+  
+.share-sm a:hover {
+    opacity: .7;
+}
+
+.goTop {
+    display: none;
+    background: linear-gradient(30deg, #3498db, #5363d8);
+    color: #ffffff;
+    position: fixed;
+    z-index: 99;
     bottom: 25px;
     right: 25px;
     width: 40px;
     height: 40px;
-    background-color: #0055b3;
     border: none;
     border-radius: 100%;
     font-size: 20px;
@@ -414,14 +474,14 @@ section {
         flex: 100%;
         text-align: center;
     }
+
+    .container .skill-box {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 600px) {
     .inner-width {
         padding: 0 20px;
-    }
-
-    .skill {
-        width: 100%;
     }
 }
