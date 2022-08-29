@@ -432,7 +432,7 @@ section {
     height: 100%;
     z-index: 1;
     background-color: #555555cc;
-    transition: all .3s ease-out;
+    transition: .3s ease-out;
     opacity: 0;
 }
 
@@ -446,8 +446,10 @@ section {
     opacity: 0;
 }
 
+.project:hover::before,
 .project:hover .info {
     opacity: 1;
+    transform: scale(1);
 }
 
 .share-btn {
