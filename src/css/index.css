@@ -35,22 +35,7 @@ a {
     transition: .3s linear;
 }
 
-a:link {
-    color: #0055b3;
-    transition: .3s linear;
-}
-
-a:visited {
-    color: #0055b3;
-    transition: .3s linear;
-}
-
-a:active {
-    color: #0055b3;
-    transition: .3s linear;
-}
-
-.a:hover {
+a:hover {
     color: #0055b3b2;
 }
 
