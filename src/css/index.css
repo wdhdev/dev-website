@@ -425,6 +425,10 @@ section {
     transition: .3s linear;
 }
 
+.project p {
+    font-size: 16px;
+}
+
 .project::before {
     content: "";
     position: absolute;
