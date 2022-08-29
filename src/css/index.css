@@ -8,6 +8,7 @@
 
 body::-webkit-scrollbar {
     width: 16px;
+    background-color: #333333;
 }
 
 body::-webkit-scrollbar-track {
@@ -140,7 +141,7 @@ a:hover {
     margin-bottom: 60px;
 }
 
-.typewriter {
+#home .content h1 a {
     color: #ffffff;
 }
 
@@ -228,7 +229,6 @@ section {
 }
 
 .about-text h3 {
-    margin: 8px 0;
     color: #333333;
     font-size: 16px;
 }
@@ -244,8 +244,15 @@ section {
     margin: 0 10px;
 } */
 
+.about-text p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 26px;
+    margin-top: 10px;
+}
+
 .about-sm a {
-    margin-top: 2px;
+    margin-top: 4px;
     color: #000000;
     font-size: 22px;
     transition: .3s linear;
@@ -253,13 +260,6 @@ section {
 
 .about-sm a:hover {
     opacity: .7;
-}
-
-.about-text p {
-    font-size: 16px;
-    text-align: justify;
-    line-height: 26px;
-    margin-top: 10px;
 }
 
 .skills {
@@ -489,6 +489,15 @@ section {
     .about-text {
         flex: 100%;
         text-align: center;
+    }
+
+    .about-text p {
+        text-align: center;
+        margin-top: 14px;
+    }
+
+    .about-sm {
+        margin-top: 2px;
     }
 
     .container .skill-box {
