@@ -312,7 +312,7 @@ section {
     cursor: pointer;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 980px) {
     .menu-toggler {
         display: block;
     }
@@ -362,7 +362,7 @@ section {
     }
 
     .about-text {
-        flex: 100;
+        flex: 100%;
         text-align: center;
     }
 }
