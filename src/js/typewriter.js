@@ -12,8 +12,8 @@ TxtType.prototype.tick = function() {
     var i = this.loopNum % this.toRotate.length;
     var fullTxt = this.toRotate[i];
 
-    if (this.isDeleting) {
-    this.txt = fullTxt.substring(0, this.txt.length - 1);
+    if(this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
     } else {
     this.txt = fullTxt.substring(0, this.txt.length + 1);
     }
