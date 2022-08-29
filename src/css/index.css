@@ -431,10 +431,9 @@ section {
     width: 100%;
     height: 100%;
     z-index: 1;
-    background-color: #55555533;
+    background-color: #55555566;
     transition: .3s linear;
     opacity: 0;
-    transform: scale(0);
 }
 
 .project .info {
@@ -447,14 +446,8 @@ section {
     opacity: 0;
 }
 
-.project:hover img {
-    transform: scale(1.6) rotate(25deg);
-}
-
-.project:hover::before,
 .project:hover .info {
     opacity: 1;
-    transform: scale(1);
 }
 
 .share-btn {
@@ -597,10 +590,6 @@ section {
 
     .container .skill-box {
         width: 100%;
-    }
-
-    .project {
-        width: calc(50% - 10px);
     }
 }
 
