@@ -33,6 +33,7 @@ html {
 
 a {
     color: #0055b3;
+    font-weight: 700;
     transition: .3s linear;
 }
 
