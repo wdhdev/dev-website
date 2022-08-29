@@ -296,16 +296,6 @@ section {
     width: 50%;
 } */
 
-.container {
-    position: relative;
-    max-width: 500px;
-    width: 100%;
-    background: #ffffff;
-    margin: 0 15px;
-    padding: 10px 20px;
-    border-radius: 7px;
-}
-
 .container .skill-box {
     width: 100%;
     margin: 0 25px;
