@@ -422,6 +422,7 @@ section {
 .project img {
     width: 100%;
     height: 100%;
+    transition: .4s linear;
 }
 
 .project::before {
@@ -432,6 +433,8 @@ section {
     z-index: 1;
     background-color: #5555557f;
     transition: .3s linear;
+    opacity: 0;
+    transform: scale(0);
 }
 
 .project .info {
@@ -441,6 +444,17 @@ section {
     left: 40px;
     color: #ffffff;
     transition: .4s linear;
+    opacity: 0;
+}
+
+.project:hover img {
+    transform: scale(1.5);
+}
+
+.project:hover::before,
+.project:hover .info {
+    opacity: 1;
+    transform: scale(1);
 }
 
 .share-btn {
@@ -584,10 +598,18 @@ section {
     .container .skill-box {
         width: 100%;
     }
+
+    .project {
+        width: calc(50% - 10px);
+    }
 }
 
 @media screen and (max-width: 600px) {
     .inner-width {
         padding: 0 20px;
+    }
+
+    .project {
+        width: 100%;
     }
 }
