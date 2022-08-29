@@ -362,6 +362,53 @@ section {
     transform: translateX(-50%) rotate(45deg);
 }
 
+.timeline {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.block {
+    width: calc(50% - 20px);
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    margin: 10px 0;
+    padding: 30px;
+    position: relative;
+}
+
+.block::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 120%;
+    background-color: #dddddd;
+    left: -20px;
+    top: 50%;
+    transform: rotateY(-50%);
+}
+
+.block::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #0055b3;
+    left: -28px;
+    top: 30px;
+    border-radius: 50%;
+}
+
+.block h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.block p {
+    font-size: 14px;
+    color: #444444;
+}
+
 .share-btn {
     background: linear-gradient(30deg, #3498db, #5363d8);
     border: none;
