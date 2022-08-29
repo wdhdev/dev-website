@@ -298,19 +298,23 @@ section {
 
 .share-btn {
     background: linear-gradient(30deg, #3498db, #5363d8);
-    color: #fff;
-    font-family: "Montserrat";
+    color: #ffffff;
     border: 0;
     padding: 16px 40px;
+    bottom: 25px;
+    left: 25px;
     font-size: 20px;
-    font-weight: 600;
     cursor: pointer;
     overflow: hidden;
     position: relative;
-    border-radius: 40px;
+    border-radius: 100%;
     transition: .3s;
 }
-  
+
+.share-btn:hover {
+    border-radius: 40px;
+}
+
 .share-sm {
     position: absolute;
     width: 100%;
@@ -320,28 +324,28 @@ section {
     bottom: 0;
     transform: translateY(100%);
 }
-  
+
 .share-sm a {
-    color: #fff;
+    color: #ffffff;
     transition: .3s;
 }
-  
+
 .text, .icon {
     display: inline-block;
     transition: .3s;
 }
-  
+
 .icon {
     transition-delay: 60ms;
 }
-  
+
 .share-sm a:nth-child(2) {
     transition-delay: 60ms;
 }
-  
-.share-sm a:nth-child(3) {
+
+/* .share-sm a:nth-child(3) {
     transition-delay: 120ms;
-}
+} */
   
 .share-btn:hover .text,
 .share-btn:hover .icon,
