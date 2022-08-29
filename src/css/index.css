@@ -449,7 +449,7 @@ section {
     font-weight: 700;
 }
 
-.info p {
+.info .cat {
     font-weight: 400;
 }
 
@@ -598,6 +598,10 @@ section {
 
     .container .skill-box {
         width: 100%;
+    }
+
+    .project {
+        width: calc(50% - 10px);
     }
 }
 
