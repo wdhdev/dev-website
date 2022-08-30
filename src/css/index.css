@@ -525,9 +525,10 @@ footer {
     transition-delay: 60ms;
 }
 
-/* .icon {
-    transition-delay: 60ms;
-} */
+.icon {
+    /* transition-delay: 60ms; */
+    margin-right: 2px;
+}
 
 .share-sm a:nth-child(2) {
     transition-delay: 60ms;
