@@ -486,10 +486,12 @@ footer {
     border: none;
     font-size: 20px;
     font-weight: 600;
-    padding: 8px 10px;
+    font-family: "Montserrat";
+    /* padding: 8px 10px; */
+    padding: 16px 38px;
     cursor: pointer;
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 40px;
     color: #ffffff;
     position: fixed;
     bottom: 25px;
@@ -517,9 +519,12 @@ footer {
     border-radius: 40px;
 }
   
-.icon {
+.text, .icon {
     display: inline-block;
     transition: .3s;
+}
+
+.icon {
     transition-delay: 60ms;
 }
   
