@@ -7,48 +7,254 @@
 
         <!-- HTML Meta Tags -->
         <title>William Harrison</title>
-        <meta name="description" content="Coming Soon">
+        <meta name="description" content="A portfolio which displays all of my coding things.">
         <meta name="theme-color" content="#0096ff">
 
         <!-- Google / Search Engine Tags -->
         <meta itemprop="name" content="William Harrison">
-        <meta itemprop="description" content="Coming Soon">
+        <meta itemprop="description" content="A portfolio which displays all of my coding things.">
 
         <!-- Facebook Meta Tags -->
         <meta property="og:url" content="https://williamharrison.dev">
         <meta property="og:type" content="website">
         <meta property="og:title" content="William Harrison">
-        <meta property="og:description" content="Coming Soon">
+        <meta property="og:description" content="A portfolio which displays all of my coding things.">
 
         <!-- Twitter Meta Tags -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="William Harrison">
-        <meta name="twitter:description" content="Coming Soon">
+        <meta name="twitter:description" content="A portfolio which displays all of my coding things.">
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="/assets/favicon.ico">
 
         <!-- Stylesheets -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="/css/index.css">
+
+        <!-- Scripts -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     </head>
 
     <body>
-        <!-- Background -->
-        <div class="container">
-            <div class="background">
-                <video src="/assets/background.mp4" muted autoplay loop></video>
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <div class="inner-width">
+                <!-- Logo -->
+                <a href="/" class="logo"></a>
+
+                <!-- Menu Toggler -->
+                <button class="menu-toggler">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <!-- Menu -->
+                <div class="navbar-menu">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#education">Education</a>
+                    <a href="#projects">Projects</a>
+                    <a href="https://contact.williamharrison.xyz">Contact Me</a>
+                </div>
             </div>
 
-            <!-- Title -->
-            <h1>Coming Soon</h1>
+            <script src="/js/navigation.js"></script>
+        </nav>
 
-            <!-- Social Media -->
-            <div class="sm">
-                <a href="https://www.facebook.com/wdharrison09"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://twitter.com/wdharrison09"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/wdharrison09"><i class="fab fa-instagram"></i></a>
+        <!-- Home -->
+        <section id="home">
+            <div class="inner-width">
+                <div class="content">
+                    <h1><a class="typewrite" data-period="2000" data-type='["Hi, my name is William.", "I am a Developer."]'><span class="wrap"></span></a></h1>
+
+                    <!-- Typewriter Script -->
+                    <script src="/js/typewriter.js"></script>
+
+                    <!-- Social Media -->
+                    <div class="sm">
+                        <a href="https://www.facebook.com/wdharrison09" class="fab fa-facebook"></a>
+                        <a href="https://twitter.com/wdharrison09" class="fab fa-twitter"></a>
+                        <a href="https://www.instagram.com/wdharrison09" class="fab fa-instagram"></a>
+                    </div>
+
+                    <!-- Buttons -->
+                    <div class="buttons">
+                        <a href="https://contact.williamharrison.xyz">Contact Me</a>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
+
+        <!-- About Me -->
+        <section id="about">
+            <div class="inner-width">
+                <h1 class="section-title">About Me</h1>
+
+                <div class="about-content">
+                    <img src="/assets/wh_logo.png" class="about-pic">
+
+                    <!-- Info -->
+                    <div class="about-text">
+                        <h2>William Harrison</h2>
+                        <h3><span>Developer</span></h3>
+
+                        <div class="about-sm">
+                            <a href="https://github.com/williamdavidharrison" class="fa-brands fa-github"></a>
+                        </div>
+
+                        <p>Hi, I'm William! I'm a developer who likes to code in HTML, CSS and JavaScript. I am a self taught coder. I'm a beta tester and maker of the social dropdown for <a href="https://github.com/wclarkey/cmshark">CMShark</a> and a developer for the <a href="https://github.com/is-a-good-dev/dashboard">is-a-good-dev Dashboard</a>.</p>
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div class="skills">
+                    <div class="container">
+                        <!-- HTML -->
+                        <div class="skill-box">
+                            <span class="skill-title">HTML</span>
+
+                            <div class="skill-bar">
+                                <span class="skill-per html">
+                                    <span class="tooltip">90%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- NodeJS -->
+                        <div class="skill-box">
+                            <span class="skill-title">NodeJS</span>
+
+                            <div class="skill-bar">
+                                <span class="skill-per nodejs">
+                                    <span class="tooltip">85%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- JavaScript -->
+                        <div class="skill-box">
+                            <span class="skill-title">JavaScript</span>
+
+                            <div class="skill-bar">
+                                <span class="skill-per js">
+                                    <span class="tooltip">75%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- CSS -->
+                        <div class="skill-box">
+                            <span class="skill-title">CSS</span>
+
+                            <div class="skill-bar">
+                                <span class="skill-per css">
+                                    <span class="tooltip">60%</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education">
+            <div class="inner-width">
+                <h1 class="section-title">Education</h1>
+
+                <div class="timeline">
+                    <!-- is-a-good-dev Dashboard -->
+                    <div class="block">
+                        <h4>2022 - Present</h4>
+
+                        <h3>is-a-good-dev Dashboard</h3>
+                        <p>I'm currently working as a developer and beta tester for the is-a-good-dev dashboard service.</p>
+                    </div>
+
+                    <!-- Future Focus Accounting -->
+                    <div class="block">
+                        <h4>2021 - Present</h4>
+
+                        <h3><a href="https://futurefocusaccounting.com.au">Future Focus Accounting</a></h3>
+                        <p>I'm currently in the process of making Future Focus Accounting's official website.</p>
+                    </div>
+
+                    <!-- is-a-dev Registration -->
+                    <div class="block">
+                        <h4>2022</h4>
+
+                        <h3><a href="https://register.is-a.dev">is-a-dev Registration</a></h3>
+                        <p>I worked as a developer and beta tester for the is-a-dev registration program.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects">
+            <div class="inner-width">
+                <h1 class="section-title">Projects</h1>
+
+                <div class="projects">
+                    <!-- Personal Website -->
+                    <a href="https://william.net.au" class="project">
+                        <img src="/assets/projects/personal_website.png" alt="Personal Website">
+
+                        <div class="info">
+                            <h3>Personal Website</h3>
+                            <div class="cat">A website displaying some information about me.</div>
+                        </div>
+                    </a>
+
+                    <!-- Developer Website -->
+                    <a href="https://williamharrison.dev" class="project">
+                        <img src="/assets/projects/developer_website.png" alt="Developer Website">
+
+                        <div class="info">
+                            <h3>Developer Website</h3>
+                            <div class="cat">A portfolio which displays all of my coding things.</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <script src="/js/projects.js"></script>
+        </section>
+
+        <footer>
+            <div class="inner-width">
+                <!-- Copyright -->
+                <div class="copyright">
+                    &copy; 2022 William Harrison - All Rights Reserved.
+                </div>
+
+                <!-- Social Media -->
+                <div class="footer-sm">
+                    <a href="https://www.facebook.com/wdharrison09" class="fab fa-facebook"></a>
+                    <a href="https://twitter.com/wdharrison09" class="fab fa-twitter"></a>
+                    <a href="https://www.instagram.com/wdharrison09" class="fab fa-instagram"></a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Share Button -->
+        <button class="share-btn">
+            <i class="icon fa-solid fa-share"></i>
+            <span class="text">Share</span>
+
+            <div class="share-sm">
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwilliamharrison.dev%2F&amp;src=sdkpreparse"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/intent/tweet?text=https://williamharrison.dev"><i class="fab fa-twitter"></i></a>
+            </div>
+        </button>
+
+        <!-- Back to Top Button -->
+        <button class="goTop fas fa-arrow-up"></button>
+        <script src="/js/goTop.js"></script>
     </body>
 </html>
