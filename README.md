@@ -1,5 +1,8 @@
 # Developer Website
-You can check it out [here](https://williamharrison.dev).
+A portfolio which displays all of my coding projects and skills.
+
+## Link
+https://williamharrison.dev
 
 ## Notes
 > Hosted on [Cloudflare Pages](https://pages.cloudflare.com)
