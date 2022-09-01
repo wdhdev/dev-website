@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /assets/404/*
+Disallow: /css/*
+Disallow: /js/*
+Disallow: 404.html
+Allow: /assets/*
+Allow: index.html
+Sitemap: sitemap.xml
