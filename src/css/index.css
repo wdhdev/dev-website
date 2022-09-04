@@ -411,7 +411,7 @@ section {
 }
 
 .project {
-    border: 2px solid #20b2aa;
+    border: 4px solid #20b2aa;
     width: calc(50% - 10px);
     overflow: hidden;
     border-radius: 4px;
