@@ -411,10 +411,10 @@ section {
 }
 
 .project {
-    border: 2px linear-gradient(#3498db, #5363d8);
+    border: 2px solid #20b2aa;
     width: calc(50% - 10px);
     overflow: hidden;
-    border-radius: 6px;
+    border-radius: 4px;
     margin: 10px 0;
     cursor: pointer;
     position: relative;
