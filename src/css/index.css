@@ -411,6 +411,7 @@ section {
 }
 
 .project {
+    border: 2px linear-gradient(#3498db, #5363d8);
     width: calc(50% - 10px);
     overflow: hidden;
     border-radius: 6px;
@@ -420,7 +421,6 @@ section {
 }
 
 .project img {
-    border: 2px solid linear-gradient(#3498db, #5363d8);
     width: 100%;
     height: 100%;
 }
