@@ -308,12 +308,12 @@ section {
 }
 
 .skill-per.html {
-    width: 90%;
+    width: 95%;
     animation-delay: 0.1s;
 }
 
 .skill-per.nodejs {
-    width: 85%;
+    width: 80%;
     animation-delay: 0.2s;
 }
 
@@ -323,7 +323,7 @@ section {
 }
 
 .skill-per.css {
-    width: 60%;
+    width: 70%;
     animation-delay: 0.4s;
 }
 
