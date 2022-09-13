@@ -561,7 +561,7 @@ footer {
 }
 
 .goTop:hover {
-    background: linear-gradient(30deg, #5363d8, #3498db);
+    opacity: .7;
 }
 
 @media screen and (max-width: 980px) {
