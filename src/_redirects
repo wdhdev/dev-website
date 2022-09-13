@@ -1,19 +1,32 @@
+<!-- Main -->
+/contact https://contact.williamharrison.me
+/home / 301
+/links https://williamharrison.me
+/source https://github.com/williamdavidharrison/dev-website
+
+<!-- About -->
 /about/cmshark https://github.com/wclarkey/cmshark
 /about/is-a-good-dev-dashboard https://github.com/is-a-good-dev/dashboard
-/contact https://contact.williamharrison.me
+
+<!-- Education -->
 /education/future-focus-accounting https://futurefocusaccounting.com.au
 /education/is-a-dev-registration https://register.is-a.dev
 /education/is-a-good-dev-dashboard https://dashboard.is-a-good.dev
-/facebook https://www.facebook.com/wdharrison09
-/github https://github.com/williamdavidharrison
-/home / 301
-/instagram https://www.instagram.com/wdharrison09
-/links https://williamharrison.me
+
+<!-- Projects -->
+/projects/dev https://williamharrison.dev
 /projects/discord https://discord.williamharrison.me
 /projects/eyes https://eyes.williamharrison.dev
+/projects/links https://williamharrison.me
 /projects/personal https://william.net.au
 /projects/wu https://williamsutilities.tk
+
+<!-- Share -->
 /share/facebook https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwilliamharrison.dev%2F&src=sdkpreparse
 /share/twitter https://twitter.com/share?url=https://williamharrison.dev
-/source https://github.com/williamdavidharrison/dev-website
+
+<!-- Social Media -->
+/facebook https://www.facebook.com/wdharrison09
+/github https://github.com/williamdavidharrison
+/instagram https://www.instagram.com/wdharrison09
 /twitter https://twitter.com/wdharrison09
