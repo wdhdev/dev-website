@@ -560,10 +560,6 @@ footer {
     z-index: 97;
 }
 
-.goTop:hover {
-    opacity: .7;
-}
-
 @media screen and (max-width: 980px) {
     .menu-toggler {
         display: block;
