@@ -516,6 +516,7 @@ footer {
 .share-btn:hover {
     padding: 16px 10px;
     border-radius: 40px;
+    background: linear-gradient(30deg, #5363d8, #3498db);
 }
 
 .text, .icon {
@@ -555,7 +556,12 @@ footer {
     border-radius: 100%;
     font-size: 20px;
     cursor: pointer;
+    transition: .3s linear;
     z-index: 97;
+}
+
+.goTop:hover {
+    background: linear-gradient(30deg, #5363d8, #3498db);
 }
 
 @media screen and (max-width: 980px) {
