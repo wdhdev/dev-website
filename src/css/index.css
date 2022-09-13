@@ -213,6 +213,7 @@ section {
     bottom: -7px;
 }
 
+/* About */
 .about-content {
     display: flex;
     align-items: center;
@@ -263,6 +264,7 @@ section {
     opacity: .7;
 }
 
+/* Skills */
 .skills {
     margin-top: 40px;
     display: flex;
@@ -363,6 +365,7 @@ section {
     transform: translateX(-50%) rotate(45deg);
 }
 
+/* Education */
 .timeline, .projects {
     display: flex;
     justify-content: space-between;
@@ -410,6 +413,7 @@ section {
     color: #444444;
 }
 
+/* Projects */
 .project {
     border: 4px solid #20b2aa;
     width: calc(50% - 10px);
@@ -459,6 +463,7 @@ section {
     opacity: 1;
 }
 
+/* Footer */
 footer {
     background-color: #000000;
     color: #ffffff;
@@ -482,6 +487,7 @@ footer {
     color: #ffffffa5;
 }
 
+/* Share Button */
 .share-btn {
     background: linear-gradient(30deg, #3498db, #5363d8);
     border: none;
@@ -543,6 +549,7 @@ footer {
     opacity: .7;
 }
 
+/* Go Top Button */
 .goTop {
     display: none;
     background: linear-gradient(30deg, #3498db, #5363d8);
@@ -559,6 +566,7 @@ footer {
     z-index: 97;
 }
 
+/* Mobile */
 @media screen and (max-width: 980px) {
     .menu-toggler {
         display: block;
@@ -604,6 +612,7 @@ footer {
         max-width: 800px;
     }
 
+    /* About */
     .about-pic {
         margin: 0 auto 60px;
     }
@@ -626,6 +635,7 @@ footer {
         width: 100%;
     }
 
+    /* Projects */
     .project {
         width: calc(50% - 10px);
     }
@@ -636,6 +646,7 @@ footer {
         padding: 0 20px;
     }
 
+    /* Projects */
     .project {
         width: 100%;
     }
