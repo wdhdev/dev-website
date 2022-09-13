@@ -556,7 +556,6 @@ footer {
     border-radius: 100%;
     font-size: 20px;
     cursor: pointer;
-    transition: .3s linear;
     z-index: 97;
 }
 
