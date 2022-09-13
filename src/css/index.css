@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+/* Scroll Bar */
 body::-webkit-scrollbar {
     width: 16px;
     background-color: #333333;
@@ -31,6 +32,7 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Links */
 a {
     color: #0055b3;
     font-weight: 700;
