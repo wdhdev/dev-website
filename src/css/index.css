@@ -257,6 +257,7 @@ section {
 
 .about-sm a {
     margin-top: 8px;
+    margin-right: 2px;
     color: #000000;
     font-size: 22px;
     transition: .3s linear;
