@@ -653,4 +653,9 @@ footer {
     .project {
         width: 100%;
     }
+    
+    /* Share Button */
+    .share-btn {
+        display: none;
+    }
 }
