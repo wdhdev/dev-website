@@ -317,14 +317,14 @@ section {
     animation-delay: 0.1s;
 }
 
+.skill-per.js {
+    width: 85%;
+    animation-delay: 0.3s;
+}
+
 .skill-per.nodejs {
     width: 80%;
     animation-delay: 0.2s;
-}
-
-.skill-per.js {
-    width: 75%;
-    animation-delay: 0.3s;
 }
 
 .skill-per.css {
