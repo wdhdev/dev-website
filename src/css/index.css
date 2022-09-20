@@ -642,6 +642,11 @@ footer {
     .project {
         width: calc(50% - 10px);
     }
+
+    /* Education */
+    .block::before {
+        left: 0;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -653,7 +658,7 @@ footer {
     .project {
         width: 100%;
     }
-    
+
     /* Share Button */
     .share-btn {
         display: none;
