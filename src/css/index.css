@@ -418,7 +418,6 @@ section {
 
 /* Projects */
 .project {
-    border: 4px solid #20b2aa;
     width: calc(50% - 10px);
     overflow: hidden;
     border-radius: 4px;
@@ -430,6 +429,7 @@ section {
 .project img {
     width: 100%;
     height: 100%;
+    border-radius: 8px;
 }
 
 .project::before {
