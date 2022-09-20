@@ -647,6 +647,14 @@ footer {
     .block::before {
         left: 0;
     }
+
+    .project h3 {
+        text-align: center;
+    }
+
+    .project p {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 600px) {
