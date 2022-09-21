@@ -473,6 +473,7 @@ section {
 /* Social Media */
 .social-media {
     text-align: center;
+    margin-top: -20px;
 }
 
 .social-media a {
