@@ -35,7 +35,6 @@ html {
 /* Links */
 a {
     color: #0055b3;
-    font-weight: 500;
     transition: .3s linear;
 }
 
@@ -501,6 +500,10 @@ footer {
 .copyright {
     font-size: 16px;
     margin-bottom: 16px;
+}
+
+.links {
+    margin-right: 4px;
 }
 
 /* Share Button */
