@@ -477,69 +477,19 @@ section {
 }
 
 .social-media a {
-    color: #444444;
-    font-size: 40px;
     margin: 0 4px;
-    border-radius: 100%;
-    transition: .3s linear;
 }
 
 .social-media img {
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
     transition: .3s linear;
 }
 
 .social-media img:hover {
     opacity: .7;
 }
-
-/* .social-media .fa-facebook {
-    color: #4267B2;
-}
-
-.social-media .fa-twitter {
-    color: #1DA1F2;
-}
-
-.social-media .fa-instagram {
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-    color: #ffffff;
-}
-
-.social-media .fa-reddit {
-    color: #FF4500;
-}
-
-.social-media .fa-discord {
-    color: #5865F2;
-}
-
-.social-media .fa-snapchat {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-.social-media .fa-github {
-    color: #333333;
-}
-
-.social-media .fa-youtube {
-    color: #c4302b;
-}
-
-.social-media .fa-twitch {
-    color: #6441a5;
-}
-
-.social-media .fa-tiktok {background: linear-gradient(90deg, rgba(1,1,1,1) 0%, rgba(105,201,208,1) 35%, rgba(238,29,82,1) 100%);
-    color: #ffffff;
-}
-
-.social-media .fa-spotify {
-    background-color: #191414;
-    color: #1db954;
-} */
 
 /* Footer */
 footer {
