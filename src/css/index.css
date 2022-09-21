@@ -487,6 +487,14 @@ section {
     opacity: .7;
 }
 
+.social-media .facebook {
+    color: #4267B2;
+}
+
+.social-media .twitter {
+    color: #1DA1F2;
+}
+
 /* Footer */
 footer {
     background-color: #000000;
