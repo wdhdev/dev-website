@@ -508,7 +508,11 @@ section {
 }
 
 .social-media .fa-youtube {
-    color: #c4302b
+    color: #c4302b;
+}
+
+.social-media .fa-twitch {
+    color: #6441a5;
 }
 
 .social-media .fa-spotify {
