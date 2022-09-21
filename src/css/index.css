@@ -480,6 +480,7 @@ section {
     color: #444444;
     font-size: 40px;
     margin: 0 8px;
+    border-radius: 50%
     transition: .3s linear;
 }
 
