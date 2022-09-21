@@ -4,8 +4,8 @@
 /links https://williamharrison.me
 
 <!-- About -->
-/about/is-a-dev https://github.com/is-a-dev
-/about/is-a-good-dev https://github.com/is-a-good-dev
+/about/is-a-dev https://github.com/is-a-dev/register
+/about/is-a-good-dev https://github.com/is-a-good-dev/register
 /about/website https://github.com/williamdavidharrison/website
 
 <!-- Education -->
@@ -14,10 +14,8 @@
 /education/is-a-good-dev-dashboard https://dashboard.is-a-good.dev
 
 <!-- Projects -->
-/projects/dev https://williamharrison.dev
 /projects/discord https://discord.williamharrison.me
 /projects/eyes https://eyes.williamharrison.dev
-/projects/links https://williamharrison.me
 /projects/personal https://william.net.au
 /projects/wu https://williamsutilities.tk
 
