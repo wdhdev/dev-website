@@ -502,8 +502,8 @@ footer {
     margin-bottom: 16px;
 }
 
-.links {
-    margin-right: 6px;
+.links a {
+    margin-right: 4px;
 }
 
 /* Share Button */
