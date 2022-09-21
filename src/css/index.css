@@ -470,6 +470,18 @@ section {
     opacity: 1;
 }
 
+/* Social Media */
+.social-media a {
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0 6px;
+    transition: .3s linear;
+}
+
+.social-media a:hover {
+    opacity: .7;
+}
+
 /* Footer */
 footer {
     background-color: #000000;
