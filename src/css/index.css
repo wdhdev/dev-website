@@ -480,7 +480,6 @@ section {
     color: #444444;
     font-size: 40px;
     margin: 0 8px;
-    border-radius: 100%;
     transition: .3s linear;
 }
 
@@ -537,6 +536,7 @@ section {
 .social-media .fa-spotify {
     background-color: #191414;
     color: #1db954;
+    border-radius: 100%;
 }
 
 /* Footer */
