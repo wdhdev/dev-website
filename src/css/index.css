@@ -503,6 +503,10 @@ section {
     color: #FF4500;
 }
 
+.social-media .fa-discord {
+    color: #7289da;
+}
+
 /* Footer */
 footer {
     background-color: #000000;
