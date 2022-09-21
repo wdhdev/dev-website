@@ -314,22 +314,18 @@ section {
 
 .skill-per.html {
     width: 95%;
-    animation-delay: 0.1s;
 }
 
 .skill-per.js {
     width: 80%;
-    animation-delay: 0.3s;
 }
 
 .skill-per.nodejs {
     width: 80%;
-    animation-delay: 0.2s;
 }
 
 .skill-per.css {
     width: 70%;
-    animation-delay: 0.4s;
 }
 
 @keyframes progress {
