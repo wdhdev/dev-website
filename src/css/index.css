@@ -496,10 +496,7 @@ section {
 }
 
 .social-media .fa-instagram {
-    background: #f09433; 
-    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: #f09433;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f09433", endColorstr="#bc1888",GradientType=1 );
     color: #ffffff;
 }
@@ -530,7 +527,7 @@ section {
 }
 
 .social-media .fa-tiktok {
-    background-color: #000000;
+    background: linear-gradient(90deg, rgba(1,1,1,1) 0%, rgba(105,201,208,1) 35%, rgba(238,29,82,1) 100%);
     color: #ffffff;
 }
 
