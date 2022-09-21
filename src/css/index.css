@@ -308,7 +308,7 @@ section {
     height: 100%;
     border-radius: 6px;
     background: #4070f4;
-    animation: progress 2s ease-in-out forwards;
+    animation: progress 1s ease-in-out forwards;
     opacity: 0;
 }
 
