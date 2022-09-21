@@ -480,6 +480,7 @@ section {
     color: #444444;
     font-size: 40px;
     margin: 0 8px;
+    border-radius: 100%;
     transition: .3s linear;
 }
 
@@ -487,7 +488,7 @@ section {
     opacity: .7;
 }
 
-.social-media .fa-facebook {
+/* .social-media .fa-facebook {
     color: #4267B2;
 }
 
@@ -496,8 +497,7 @@ section {
 }
 
 .social-media .fa-instagram {
-    background: #f09433;
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f09433", endColorstr="#bc1888",GradientType=1 );
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
     color: #ffffff;
 }
 
@@ -526,15 +526,14 @@ section {
     color: #6441a5;
 }
 
-.social-media .fa-tiktok {
-    background: linear-gradient(90deg, rgba(1,1,1,1) 0%, rgba(105,201,208,1) 35%, rgba(238,29,82,1) 100%);
+.social-media .fa-tiktok {background: linear-gradient(90deg, rgba(1,1,1,1) 0%, rgba(105,201,208,1) 35%, rgba(238,29,82,1) 100%);
     color: #ffffff;
 }
 
 .social-media .fa-spotify {
     background-color: #191414;
     color: #1db954;
-}
+} */
 
 /* Footer */
 footer {
