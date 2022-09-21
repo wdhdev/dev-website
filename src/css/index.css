@@ -505,17 +505,6 @@ footer {
     margin-bottom: 20px;
 }
 
-.footer-sm a {
-    color: #ffffff;
-    font-size: 22px;
-    margin: 0 4px;
-    transition: .3s linear;
-}
-
-.footer-sm a:hover {
-    color: #ffffffa5;
-}
-
 /* Share Button */
 .share-btn {
     background: linear-gradient(30deg, #3498db, #5363d8);
