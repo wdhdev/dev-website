@@ -478,13 +478,16 @@ section {
 
 .social-media a {
     color: #444444;
-    font-size: 40px;
     margin: 0 8px;
-    border-radius: 100%;
     transition: .3s linear;
 }
 
-.social-media a:hover {
+.social-media img {
+    height: 40px;
+    width: 40px;
+}
+
+.social-media img:hover {
     opacity: .7;
 }
 
