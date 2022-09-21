@@ -424,7 +424,7 @@ section {
 .project {
     width: calc(50% - 10px);
     overflow: hidden;
-    border-radius: 4px;
+    border-radius: 8px;
     margin: 10px 0;
     cursor: pointer;
     position: relative;
