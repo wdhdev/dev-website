@@ -641,11 +641,6 @@ footer {
     .container .skill-box {
         width: 100%;
     }
-
-    /* Projects */
-    .project {
-        width: calc(50% - 10px);
-    }
 }
 
 @media screen and (max-width: 600px) {
