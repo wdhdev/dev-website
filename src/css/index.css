@@ -312,6 +312,10 @@ section {
     opacity: 0;
 }
 
+.skill-per.css {
+    width: 70%;
+}
+
 .skill-per.html {
     width: 95%;
 }
@@ -322,10 +326,6 @@ section {
 
 .skill-per.nodejs {
     width: 80%;
-}
-
-.skill-per.css {
-    width: 70%;
 }
 
 .skill-per.php {
