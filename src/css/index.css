@@ -480,6 +480,7 @@ section {
     color: #444444;
     font-size: 40px;
     margin: 0 8px;
+    border-radius: 100%;
     transition: .3s linear;
 }
 
@@ -507,6 +508,16 @@ section {
     color: #5865F2;
 }
 
+.social-media .fa-snapchat {
+    background-color: #FFFC00;
+    color: #ffffff;
+    /* border: 2px solid #000000; */
+}
+
+.social-media .fa-github {
+    color: #333333;
+}
+
 .social-media .fa-youtube {
     color: #c4302b;
 }
@@ -515,10 +526,14 @@ section {
     color: #6441a5;
 }
 
+.social-media .fa-tiktok {
+    background-color: #000000;
+    color: #ffffff;
+}
+
 .social-media .fa-spotify {
     background-color: #191414;
     color: #1db954;
-    border-radius: 50%;
 }
 
 /* Footer */
