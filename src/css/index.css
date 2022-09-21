@@ -507,6 +507,11 @@ section {
     color: #7289da;
 }
 
+.social-media .fa-spotify {
+    background-color: #1db954;
+    color: #191414;
+}
+
 /* Footer */
 footer {
     background-color: #000000;
