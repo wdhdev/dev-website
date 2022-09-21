@@ -471,6 +471,10 @@ section {
 }
 
 /* Social Media */
+.social-media {
+    text-align: center;
+}
+
 .social-media a {
     color: #444444;
     font-size: 30px;
