@@ -327,14 +327,6 @@ section {
     width: 80%;
 }
 
-.skill-per.php {
-    width: 15%;
-}
-
-.skill-per.py {
-    width: 15%;
-}
-
 @keyframes progress {
     0% {
         width: 0;
