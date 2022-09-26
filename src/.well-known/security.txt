@@ -1,0 +1,4 @@
+Contact: mailto:security@williamharrison.xyz
+Expires: 2022-12-31T16:00:00.000Z
+Preferred-Languages: en
+Canonical: https://williamharrison.dev/.well-known/security.txt
