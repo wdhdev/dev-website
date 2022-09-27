@@ -528,7 +528,6 @@ footer {
 .share-btn:hover {
     padding: 16px 10px;
     border-radius: 40px;
-    background: linear-gradient(30deg, #5363d8, #3498db);
 }
 
 .text, .icon {
