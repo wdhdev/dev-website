@@ -476,21 +476,16 @@ section {
     height: 50px;
     margin: 8px 0;
     background-color: #353b48;
+    color: #ffffff;
     border: none;
     outline: none;
     padding: 20px;
     border-radius: 6px;
-    color: #ffffff;
-}
-
-.name,
-.email {
-    max-width: calc(50% - 10px);
 }
 
 .message {
     min-height: 100px;
-    max-height: 250px;
+    max-height: 200px;
     resize: vertical;
 }
 
@@ -498,11 +493,11 @@ section {
 .email:focus,
 .subject:focus,
 .message:focus {
-    box-shadow: 0 0 4px #ffffff;
+    box-shadow: 0 0 4px #000000;
 }
 
 .contact-form .btn {
-    width: 175px;
+    width: 150px;
     font-size: 16px;
     padding: 0;
     margin-right: auto;
@@ -734,11 +729,6 @@ footer {
     /* Projects */
     .project {
         width: 100%;
-    }
-
-    /* Contact Me */
-    .name, .email {
-        max-width: 100%;
     }
     
     /* Share Button */
