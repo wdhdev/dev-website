@@ -516,11 +516,10 @@ section {
 
 .alert {
     display: none;
-    width: 44%;
+    width: 20%;
     background-color: darkgreen;
     padding: 10px;
     color: #ffffff;
-    margin-top: -50px;
     margin-bottom: 25px;
     border-radius: 8px;
     transition: .3s linear;
@@ -720,6 +719,10 @@ footer {
         width: 100%;
         justify-content: center;
         text-align: center;
+    }
+
+    .alert {
+        width: 100%;
     }
 }
 
