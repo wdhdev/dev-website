@@ -1,5 +1,5 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: rgb(14, 30, 37);
     color: white;
     overflow: hidden;
@@ -36,39 +36,27 @@ h1 {
     box-shadow: 0 2px 4px 0 rgba(14, 30, 37, .16);
 }
 
-a {
-    margin: 0;
-    text-decoration: none;
-    line-height: 24px;
-    color: #ffffff;
-}
-
-a svg {
-    position: relative;
-    top: 2px;
-}
-
 a:hover svg path {
     fill: #007067;
 }
 
 p {
-    margin-top: 6px;
-}
-
-p:last-of-type {
     margin: 0;
+    margin-top: 8px;
+    margin-bottom: 20px;
 }
 
 input {
-    width: 100px;
+    height: 35px;
+    width: 110px;
     margin: 0;
-    margin-top: 10px;
     text-decoration: none;
+    border: none;
     line-height: 24px;
     background-color: #007067;
     color: #ffffff;
     border-radius: 4px;
+    cursor: pointer;
     transition: .3s linear;
 }
 
