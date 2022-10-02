@@ -39,7 +39,6 @@ h1 {
 a {
     margin: 0;
     text-decoration: none;
-    font-weight: 600;
     line-height: 24px;
     color: #ffffff;
 }
@@ -49,8 +48,12 @@ a svg {
     top: 2px;
 }
 
-a:hover svg path{
+a:hover svg path {
     fill: #007067;
+}
+
+p {
+    margin-top: 4px;
 }
 
 p:last-of-type {
@@ -58,10 +61,11 @@ p:last-of-type {
 }
 
 button {
+    height: 100px;
+    width: 100px;
     margin: 0;
-    margin-top: 6px;
+    margin-top: 10px;
     text-decoration: none;
-    font-weight: 600;
     line-height: 24px;
     background-color: #007067;
     border-radius: 4px;
