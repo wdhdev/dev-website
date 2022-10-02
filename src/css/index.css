@@ -500,7 +500,7 @@ section {
     box-shadow: 0 0 4px #ffffff;
 }
 
-.contact-form .btn {
+.contact-form button {
     width: 175px;
     font-size: 16px;
     padding: 0;
@@ -510,25 +510,8 @@ section {
     transition: .3s linear;
 }
 
-.contact-form .btn:hover {
+.contact-form button:hover {
     background-color: #353b48b2;
-}
-
-.alert {
-    display: none;
-    width: 44%;
-    background-color: darkgreen;
-    padding: 10px;
-    color: #ffffff;
-    margin-top: -50px;
-    margin-bottom: 25px;
-    border-radius: 8px;
-    transition: .3s linear;
-}
-
-.alert .fa-solid {
-    color: white;
-    margin-right: 1px;
 }
 
 /* Social Media */
@@ -716,7 +699,7 @@ footer {
     }
 
     /* Contact Me */
-    .contact-form .btn {
+    .contact-form button {
         width: 100%;
         justify-content: center;
         text-align: center;
