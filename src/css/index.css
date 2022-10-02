@@ -516,11 +516,10 @@ section {
 
 .alert {
     display: none;
-    width: 20%;
+    width: 10%;
     background-color: darkgreen;
     padding: 10px;
     color: #ffffff;
-    margin-bottom: 25px;
     border-radius: 8px;
     transition: .3s linear;
 }
