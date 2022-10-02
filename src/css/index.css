@@ -714,6 +714,14 @@ footer {
     .project {
         width: calc(50% - 10px);
     }
+
+    /* Contact Me */
+    .contact-form .btn {
+        content: "Send";
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -724,6 +732,11 @@ footer {
     /* Projects */
     .project {
         width: 100%;
+    }
+
+    /* Contact Me */
+    .name, .email {
+        max-width: 100%;
     }
     
     /* Share Button */
