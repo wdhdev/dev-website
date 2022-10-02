@@ -70,3 +70,7 @@ button {
     background-color: #007067;
     border-radius: 4px;
 }
+
+button:hover {
+    opacity: .7;
+}
