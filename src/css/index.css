@@ -515,7 +515,7 @@ section {
     background-color: #353b48b2;
 }
 
-.alert {
+/* .alert {
     display: none;
     width: 150px;
     background-color: darkgreen;
@@ -528,7 +528,7 @@ section {
 .alert .fa-solid {
     color: white;
     margin-right: 1px;
-}
+} */
 
 /* Social Media */
 .social-media {
@@ -721,9 +721,9 @@ footer {
         text-align: center;
     }
 
-    .alert {
+    /* .alert {
         width: 100%;
-    }
+    } */
 }
 
 @media screen and (max-width: 600px) {
