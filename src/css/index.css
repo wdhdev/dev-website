@@ -516,7 +516,7 @@ section {
 
 .alert {
     display: none;
-    width: 155px;
+    width: 150px;
     background-color: darkgreen;
     padding: 10px;
     color: #ffffff;
