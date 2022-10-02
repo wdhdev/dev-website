@@ -60,7 +60,7 @@ p:last-of-type {
     margin: 0;
 }
 
-button {
+input {
     height: 20px;
     width: 100px;
     margin: 0;
@@ -68,10 +68,11 @@ button {
     text-decoration: none;
     line-height: 24px;
     background-color: #007067;
+    color: #ffffff;
     border-radius: 4px;
     transition: .3s linear;
 }
 
-button:hover {
+input:hover {
     opacity: .7;
 }
