@@ -1,4 +1,4 @@
-document.getElementById("contact-form").addEventListener("submit", submitForm);
+document.getElementById("contact").addEventListener("submit", submitForm);
 
 function submitForm(e) {
     e.preventDefault();
@@ -12,5 +12,5 @@ function submitForm(e) {
 }
 
 function reset() {
-    document.getElementById("contact-form").reset();
+    document.getElementById("contact").reset();
 }
