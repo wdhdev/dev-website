@@ -514,6 +514,23 @@ section {
     background-color: #353b48b2;
 }
 
+.alert {
+    display: none;
+    width: 44%;
+    background-color: darkgreen;
+    padding: 10px;
+    color: #ffffff;
+    margin-top: -50px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    transition: .3s linear;
+}
+
+.alert .fa-solid {
+    color: white;
+    margin-right: 1px;
+}
+
 /* Social Media */
 .social-media {
     text-align: center;
