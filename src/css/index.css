@@ -501,7 +501,7 @@ section {
     box-shadow: 0 0 4px #ffffff;
 }
 
-.btn {
+.contact-form .btn {
     width: 175px;
     font-size: 16px;
     padding: 0;
@@ -511,7 +511,7 @@ section {
     transition: .3s linear;
 }
 
-.btn:hover {
+.contact-form .btn:hover {
     background-color: #353b48b2;
 }
 
