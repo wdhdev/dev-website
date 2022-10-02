@@ -461,55 +461,6 @@ section {
     opacity: 1;
 }
 
-/* Contact Me */
-.contact-form {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.contact-form button,
-.contact-form input,
-.contact-form textarea {
-    font-size: 15px;
-    width: 100%;
-    height: 50px;
-    margin: 8px 0;
-    background-color: #353b48;
-    color: #ffffff;
-    border: none;
-    outline: none;
-    padding: 20px;
-    border-radius: 6px;
-}
-
-.message {
-    min-height: 100px;
-    max-height: 200px;
-    resize: vertical;
-}
-
-.name:focus,
-.email:focus,
-.subject:focus,
-.message:focus {
-    box-shadow: 0 0 4px #000000;
-}
-
-.contact-form .btn {
-    width: 150px;
-    font-size: 16px;
-    padding: 0;
-    margin-right: auto;
-    cursor: pointer;
-    border-radius: 6px;
-    transition: .3s linear;
-}
-
-.contact-form .btn:hover {
-    background-color: #353b48b2;
-}
-
 /* Social Media */
 .social-media {
     text-align: center;
@@ -692,13 +643,6 @@ footer {
     /* Projects */
     .project {
         width: calc(50% - 10px);
-    }
-
-    /* Contact Me */
-    .contact-form .btn {
-        width: 100%;
-        justify-content: center;
-        text-align: center;
     }
 }
 
