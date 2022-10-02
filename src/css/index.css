@@ -717,7 +717,6 @@ footer {
 
     /* Contact Me */
     .contact-form .btn {
-        content: "Send";
         width: 100%;
         justify-content: center;
         text-align: center;
