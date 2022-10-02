@@ -468,6 +468,7 @@ section {
     flex-wrap: wrap;
 }
 
+.contact-form button,
 .contact-form input,
 .contact-form textarea {
     font-size: 15px;
