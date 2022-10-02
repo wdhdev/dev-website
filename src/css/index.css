@@ -510,21 +510,6 @@ section {
     background-color: #353b48b2;
 }
 
-/* .alert {
-    display: none;
-    width: 150px;
-    background-color: darkgreen;
-    padding: 10px;
-    color: #ffffff;
-    border-radius: 8px;
-    transition: .3s linear;
-}
-
-.alert .fa-solid {
-    color: white;
-    margin-right: 1px;
-} */
-
 /* Social Media */
 .social-media {
     text-align: center;
@@ -715,10 +700,6 @@ footer {
         justify-content: center;
         text-align: center;
     }
-
-    /* .alert {
-        width: 100%;
-    } */
 }
 
 @media screen and (max-width: 600px) {
