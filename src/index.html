@@ -286,17 +286,14 @@
                 <h1 class="section-title">Contact Me</h1>
 
                 <!-- Form -->
-                <form name="contact" id="contact" action="/contact/success" method="POST" class="contact-form">
+                <form name="contact" class="contact-form" action="/contact/success" method="POST" data-netlify="true">
                     <input type="text" name="name" class="name" id="name" placeholder="Name" required>
                     <input type="email" name="email" class="email" id="email" placeholder="Email" required>
                     <input type="text" name="subject" class="subject" id="subject" placeholder="Subject" required>
                     <textarea name="message" class="message" placeholder="Message" id="message" maxlength="2048" required></textarea>
 
-                    <input type="submit" class="btn" value="Send Message">
+                    <button type="submit" class="btn" value="Send Message">
                 </form>
-
-                <!-- Scripts -->
-                <script src="/js/contact-form.js"></script>
             </div>
         </section>
 
