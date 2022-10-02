@@ -500,7 +500,7 @@ section {
     box-shadow: 0 0 4px #ffffff;
 }
 
-.contact-form .btn {
+.btn {
     width: 175px;
     font-size: 16px;
     padding: 0;
@@ -510,7 +510,7 @@ section {
     transition: .3s linear;
 }
 
-.contact-form .btn:hover {
+.btn:hover {
     background-color: #353b48b2;
 }
 
@@ -714,7 +714,7 @@ footer {
     }
 
     /* Contact Me */
-    .contact-form .btn {
+    .btn {
         width: 100%;
         justify-content: center;
         text-align: center;
