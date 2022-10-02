@@ -482,26 +482,22 @@ section {
     color: #ffffff;
 }
 
-.firstname,
-.lastname,
-.email,
-.phone {
+.name,
+.email {
     max-width: calc(50% - 10px);
 }
 
-.firstname:focus,
-.lastname:focus,
+.message {
+    min-height: 100px;
+    max-height: 250px;
+    resize: vertical;
+}
+
+.name:focus,
 .email:focus,
-.phone:focus,
 .subject:focus,
 .message:focus {
     box-shadow: 0 0 4px #ffffff;
-}
-
-.message {
-    min-height: 150px;
-    max-height: 300px;
-    resize: vertical;
 }
 
 .contact-form .btn {
