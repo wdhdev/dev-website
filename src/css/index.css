@@ -642,7 +642,7 @@ footer {
 
     /* Projects */
     .project {
-        width: calc(50% - 50px);
+        width: calc(100% - 20px);
     }
 }
 
