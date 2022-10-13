@@ -122,6 +122,7 @@ a:hover {
     background: url(/assets/background.jpg) no-repeat scroll center;
     background-size: cover;
     background-attachment: fixed;
+    opacity: .7s;
 }
 
 #home .inner-width {
