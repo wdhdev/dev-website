@@ -388,6 +388,7 @@ section {
     margin: 10px 0;
     padding: 30px;
     position: relative;
+    border-radius: 8px;
 }
 
 .block::before {
@@ -740,7 +741,7 @@ footer {
     }
 
     .block {
-        background: #444444;
+        background: #121212;
     }
 
     .block p {
