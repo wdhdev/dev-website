@@ -673,3 +673,25 @@ footer {
         display: none;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    #about {
+        background-color: #222222;
+        color: #ffffff;
+    }
+
+    #education {
+        background-color: #222222;
+        color: #ffffff;
+    }
+
+    #projects {
+        background-color: #222222;
+        color: #ffffff;
+    }
+
+    #social {
+        background-color: #222222;
+        color: #ffffff;
+    }
+}
