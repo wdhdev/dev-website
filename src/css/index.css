@@ -34,12 +34,12 @@ html {
 
 /* Links */
 a {
-    color: #0055b3;
+    color: #03a9f4;
     transition: .3s linear;
 }
 
 a:hover {
-    color: #0055b3b2;
+    color: #03a9f4b2;
 }
 
 /* Navigation Bar */
