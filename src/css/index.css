@@ -213,7 +213,7 @@ section {
     width: 16px;
     height: 10px;
     background-color: #000000;
-    border: 4px solid #ffffff;
+    border: 4px solid #f9f9f9;
     left: calc(50% - 12px);
     bottom: -7px;
 }
