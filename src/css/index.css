@@ -739,6 +739,14 @@ footer {
         color: #ffffff;
     }
 
+    .block {
+        background: #444444;
+    }
+
+    .block p {
+        color: #ffffff;
+    }
+
     /* Projects */
     #projects {
         background-color: #222222;
