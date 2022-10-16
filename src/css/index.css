@@ -42,6 +42,7 @@ a:hover {
     color: #0055b3b2;
 }
 
+/* Navigation Bar */
 .navbar {
     position: fixed;
     background-color: transparent;
@@ -116,6 +117,7 @@ a:hover {
     background-color: #ffffff;
 }
 
+/* Home */
 #home {
     height: 100vh;
     min-height: 500px;
@@ -168,7 +170,7 @@ a:hover {
     color: #ffffff;
     font-size: 15px;
     font-weight: 500;
-    width: 180px;
+    width: 160px;
     border: 2px solid #20b2aa;
     padding: 14px 0;
     border-radius: 8px;
@@ -179,6 +181,7 @@ a:hover {
     background-color: #20b2aa66;
 }
 
+/* Sections */
 section {
     padding: 100px 0;
     background-color: #ffffff;
@@ -191,6 +194,7 @@ section {
     font-size: 26px;
     padding-bottom: 20px;
     color: #000000;
+    transition: .3s linear;
 }
 
 .section-title::before {
@@ -214,7 +218,11 @@ section {
     bottom: -7px;
 }
 
-/* About */
+/* About Me */
+#about {
+    transition: .3s linear;
+}
+
 .about-content {
     display: flex;
     align-items: center;
@@ -232,8 +240,9 @@ section {
 }
 
 .about-text h3 {
-    color: #333333;
+    color: #aaaaaa;
     font-size: 16px;
+    font-weight: 500;
 }
 
 /* .about-text h3 span:nth-child(1):after,
@@ -281,15 +290,10 @@ section {
     padding: 10px 20px;
 }
 
-.container .skill-box {
-    width: 50%;
-    margin: 25px 0;
-}
-
 .skill-box .skill-title {
     display: block;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     color: #333333;
 }
 
@@ -298,7 +302,12 @@ section {
     width: 100%;
     border-radius: 6px;
     margin-top: 6px;
-    background: rgba(0,0,0,0.1);
+    background: #aaaaaa;
+}
+
+.container .skill-box {
+    width: 60%;
+    margin: 25px 0;
 }
 
 .skill-bar .skill-per {
@@ -364,6 +373,10 @@ section {
 }
 
 /* Education */
+#education {
+    transition: .3s linear;
+}
+
 .timeline, .projects {
     display: flex;
     justify-content: space-between;
@@ -373,10 +386,11 @@ section {
 .block {
     width: calc(100% - 20px);
     background: #ffffff;
-    border: 1px solid #dddddd;
+    border: 2px solid #444444;
     margin: 10px 0;
     padding: 30px;
     position: relative;
+    border-radius: 8px;
 }
 
 .block::before {
@@ -386,7 +400,7 @@ section {
     height: 120%;
     background-color: #dddddd;
     left: -20px;
-    top: 50%;
+    top: 30%;
     transform: rotateY(-50%);
 }
 
@@ -412,6 +426,10 @@ section {
 }
 
 /* Projects */
+#projects {
+    transition: .3s linear;
+}
+
 .project {
     width: calc(50% - 10px);
     overflow: hidden;
@@ -433,7 +451,7 @@ section {
     width: 100%;
     height: 100%;
     z-index: 1;
-    background-color: #0055b3cc;
+    background-color: #000000a5;
     transition: .3s linear;
     opacity: 0;
 }
@@ -462,6 +480,10 @@ section {
 }
 
 /* Social Media */
+#social {
+    transition: .3s linear;
+}
+
 .social-media {
     text-align: center;
 }
@@ -532,8 +554,8 @@ footer {
 
 .text, .icon {
     display: inline-block;
-    transition: .3s;
     transition-delay: 60ms;
+    transition: .3s;
 }
 
 .icon {
@@ -567,8 +589,13 @@ footer {
     border: none;
     border-radius: 100%;
     font-size: 20px;
+    transition: .3s linear;
     cursor: pointer;
     z-index: 97;
+}
+
+.goTop:hover {
+    opacity: .7;
 }
 
 /* Mobile */
@@ -662,9 +689,87 @@ footer {
     .project {
         width: 100%;
     }
-    
+
     /* Share Button */
     .share-btn {
         display: none;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    /* Links */
+    a {
+        color: #03a9f4;
+        transition: .3s linear;
+    }
+
+    a:hover {
+        color: #03a9f4b2;
+    }
+
+    /* Sections */
+    section {
+        background-color: #222222;
+    }
+
+    .section-title {
+        color: #ffffff;
+    }
+
+    .section-title::before {
+        background-color: #ffffff;
+    }
+
+    .section-title::after {
+        background-color: #ffffff;
+        border: 4px solid #222222;
+    }
+
+    /* About Me */
+    #about {
+        background-color: #222222;
+        color: #ffffff;
+    }
+
+    .about-sm a {
+        color: #ffffff;
+    }
+
+    .skill-box .skill-title {
+        color: #ffffff;
+    }
+
+    .skill-box {
+        color: #ffffff;
+    }
+
+    .skill-box .skill-bar {
+        background: #444444;
+    }
+
+    /* Education */
+    #education {
+        background-color: #222222;
+        color: #ffffff;
+    }
+
+    .block {
+        background: #191919;
+    }
+
+    .block p {
+        color: #ffffff;
+    }
+
+    /* Projects */
+    #projects {
+        background-color: #222222;
+        color: #ffffff;
+    }
+
+    /* Social Media */
+    #social {
+        background-color: #222222;
+        color: #ffffff;
     }
 }
