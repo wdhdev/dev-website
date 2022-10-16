@@ -194,6 +194,7 @@ section {
     font-size: 26px;
     padding-bottom: 20px;
     color: #000000;
+    transition: .3s linear;
 }
 
 .section-title::before {
