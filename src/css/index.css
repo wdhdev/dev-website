@@ -42,6 +42,11 @@ a:hover {
     color: #0055b3b2;
 }
 
+.dark {
+    background-color: #222222;
+    color: #ffffff;
+}
+
 .navbar {
     position: fixed;
     background-color: transparent;
