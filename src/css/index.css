@@ -42,11 +42,6 @@ a:hover {
     color: #0055b3b2;
 }
 
-.dark {
-    background-color: #222222;
-    color: #ffffff;
-}
-
 /* Navigation Bar */
 .navbar {
     position: fixed;
@@ -694,6 +689,24 @@ footer {
 }
 
 @media (prefers-color-scheme: dark) {
+    /* Sections */
+    section {
+        background-color: #222222;
+    }
+
+    .section-title {
+        color: #ffffff;
+    }
+
+    .section-title::before {
+        background-color: #ffffff;
+    }
+
+    .section-title::after {
+        background-color: #ffffff;
+        border: 4px solid #222222;
+    }
+
     /* About Me */
     #about {
         background-color: #222222;
@@ -704,19 +717,19 @@ footer {
         color: #ffffff;
     }
 
-    #about .about-sm {
+    .about-sm {
         color: #ffffff;
     }
 
-    #about .skills .container .skill-box .skill-title {
+    .skill-box .skill-title {
         color: #ffffff;
     }
 
-    #about .skills .container .skill-box .skill-box {
+    .skill-box {
         color: #ffffff;
     }
 
-    #about .skills .container .skill-box .skill-bar {
+    .skill-box .skill-bar {
         background: #f1f1f1;
     }
 
