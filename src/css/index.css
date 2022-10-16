@@ -678,21 +678,25 @@ footer {
 }
 
 @media (prefers-color-scheme: dark) {
+    /* About Me */
     #about {
         background-color: #222222;
         color: #ffffff;
     }
 
+    /* Education */
     #education {
         background-color: #222222;
         color: #ffffff;
     }
 
+    /* Projects */
     #projects {
         background-color: #222222;
         color: #ffffff;
     }
 
+    /* Social Media */
     #social {
         background-color: #222222;
         color: #ffffff;
