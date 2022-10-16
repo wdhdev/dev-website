@@ -587,8 +587,13 @@ footer {
     border: none;
     border-radius: 100%;
     font-size: 20px;
+    transition: .3s linear;
     cursor: pointer;
     z-index: 97;
+}
+
+.goTop:hover {
+    opacity: .7;
 }
 
 /* Mobile */
