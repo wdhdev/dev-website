@@ -552,8 +552,8 @@ footer {
 
 .text, .icon {
     display: inline-block;
-    transition: .3s;
     transition-delay: 60ms;
+    transition: .3s;
 }
 
 .icon {
@@ -687,10 +687,18 @@ footer {
     .project {
         width: 100%;
     }
-    
+
     /* Share Button */
     .share-btn {
+        padding: 11px 13px;
+    }
+
+    .text {
         display: none;
+    }
+
+    .icon {
+        margin-right: 0;
     }
 }
 
