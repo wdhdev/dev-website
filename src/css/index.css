@@ -293,11 +293,6 @@ section {
     padding: 10px 20px;
 }
 
-.container .skill-box {
-    width: 50%;
-    margin: 25px 0;
-}
-
 .skill-box .skill-title {
     display: block;
     font-size: 14px;
@@ -311,6 +306,11 @@ section {
     border-radius: 6px;
     margin-top: 6px;
     background: rgba(0,0,0,0.1);
+}
+
+.container .skill-box {
+    width: 50%;
+    margin: 25px 0;
 }
 
 .skill-bar .skill-per {
@@ -698,6 +698,26 @@ footer {
     #about {
         background-color: #222222;
         color: #ffffff;
+    }
+
+    #about h3 span {
+        color: #ffffff;
+    }
+
+    #about .about-sm {
+        color: #ffffff;
+    }
+
+    #about .skills .container .skill-box .skill-title {
+        color: #ffffff;
+    }
+
+    #about .skills .container .skill-box .skill-box {
+        color: #ffffff;
+    }
+
+    #about .skills .container .skill-box .skill-bar {
+        background: #f1f1f1;
     }
 
     /* Education */
