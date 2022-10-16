@@ -223,6 +223,10 @@ section {
 }
 
 /* About Me */
+#about {
+    transition: .3s linear;
+}
+
 .about-content {
     display: flex;
     align-items: center;
@@ -372,6 +376,10 @@ section {
 }
 
 /* Education */
+#education {
+    transition: .3s linear;
+}
+
 .timeline, .projects {
     display: flex;
     justify-content: space-between;
@@ -420,6 +428,10 @@ section {
 }
 
 /* Projects */
+#projects {
+    transition: .3s linear;
+}
+
 .project {
     width: calc(50% - 10px);
     overflow: hidden;
@@ -470,6 +482,10 @@ section {
 }
 
 /* Social Media */
+#social {
+    transition: .3s linear;
+}
+
 .social-media {
     text-align: center;
 }
