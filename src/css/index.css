@@ -242,6 +242,7 @@ section {
 .about-text h3 {
     color: #333333;
     font-size: 16px;
+    font-weight: 500;
 }
 
 /* .about-text h3 span:nth-child(1):after,
