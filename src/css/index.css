@@ -693,6 +693,10 @@ footer {
         padding: 11px 13px;
     }
 
+    .share-btn:hover {
+        padding: 16px 10px;
+    }
+
     .text {
         display: none;
     }
