@@ -34,12 +34,12 @@ html {
 
 /* Links */
 a {
-    color: #03a9f4;
+    color: #0055b3;
     transition: .3s linear;
 }
 
 a:hover {
-    color: #03a9f4b2;
+    color: #0055b3b2;
 }
 
 /* Navigation Bar */
@@ -703,6 +703,16 @@ footer {
 }
 
 @media (prefers-color-scheme: dark) {
+    /* Links */
+    a {
+        color: #03a9f4;
+        transition: .3s linear;
+    }
+
+    a:hover {
+        color: #03a9f4b2;
+    }
+
     /* Sections */
     section {
         background-color: #222222;
