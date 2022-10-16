@@ -384,7 +384,7 @@ section {
 .block {
     width: calc(100% - 20px);
     background: #ffffff;
-    border: 1px solid #dddddd;
+    border: 2px solid #444444;
     margin: 10px 0;
     padding: 30px;
     position: relative;
@@ -398,7 +398,7 @@ section {
     height: 120%;
     background-color: #dddddd;
     left: -20px;
-    top: 50%;
+    top: 30%;
     transform: rotateY(-50%);
 }
 
