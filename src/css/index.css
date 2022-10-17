@@ -576,6 +576,14 @@ footer {
     opacity: .7;
 }
 
+.share-sm .fa-facebook {
+    color: #0165E1;
+}
+
+.share-sm .fa-twitter {
+    color: #00acee;
+}
+
 /* Go Top Button */
 .goTop {
     display: none;
