@@ -543,10 +543,6 @@ footer {
     transform: translateY(100%);
 }
 
-.share-sm a {
-    color: #ffffff;
-}
-
 .share-btn:hover {
     padding: 16px 10px;
     border-radius: 40px;
