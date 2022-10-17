@@ -568,16 +568,12 @@ footer {
     transform: translateY(-40px);
 }
 
+.share-sm a {
+    color: #ffffff;
+}
+
 .share-sm a:hover {
     opacity: .7;
-}
-
-.share-sm .fa-facebook {
-    color: #0165E1;
-}
-
-.share-sm .fa-twitter {
-    color: #00acee;
 }
 
 /* Go Top Button */
