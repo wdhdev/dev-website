@@ -849,4 +849,17 @@ footer {
     .share-btn {
         background: #333333;
     }
+
+    .share-sm .fa-facebook {
+        color: #0165E1;
+    }
+
+    .share-sm .fa-twitter {
+        color: #1DA1F2;
+    }
+
+    /* Go Top Button */
+    .goTop {
+        background: #333333;
+    }
 }
