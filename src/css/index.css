@@ -770,19 +770,11 @@ footer {
 
     /* Share Button */
     .share-btn {
-        background: #444444;
-    }
-
-    .share-sm .fa-facebook {
-        color: #17A9FD;
-    }
-
-    .share-sm .fa-twitter {
-        color: #1DA1F2;
+        background: #333333;
     }
 
     /* Go Top Button */
     .goTop {
-        background: #555555;
+        background: #333333;
     }
 }
