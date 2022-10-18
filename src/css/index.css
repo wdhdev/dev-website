@@ -783,6 +783,7 @@ footer {
     }
 
     .share-sm .fa-facebook {
+        border-radius: 100%;
         color: #17A9FD;
         background-color: #ffffff;
     }
