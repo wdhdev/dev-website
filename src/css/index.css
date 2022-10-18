@@ -391,6 +391,7 @@ section {
     padding: 30px;
     position: relative;
     border-radius: 8px;
+    transition: .3s linear;
 }
 
 .block::before {
