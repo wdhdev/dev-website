@@ -493,7 +493,7 @@ section {
     width: 100%;
     height: 50px;
     margin: 8px 0;
-    background-color: #353b48;
+    background-color: #353b4833;
     color: #ffffff;
     border: none;
     outline: none;
@@ -513,7 +513,7 @@ section {
 .phone:focus,
 .subject:focus,
 .message:focus {
-    box-shadow: 0 0 4px #ffffff;
+    box-shadow: 0 0 4px #222222;
 }
 
 .firstname,
