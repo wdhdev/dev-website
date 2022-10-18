@@ -529,7 +529,7 @@ footer {
     position: fixed;
     bottom: 25px;
     left: 25px;
-    transition: .3s;
+    transition: .3s linear;
     z-index: 97;
 }
 
@@ -589,13 +589,8 @@ footer {
     border: none;
     border-radius: 100%;
     font-size: 20px;
-    transition: .3s linear;
     cursor: pointer;
     z-index: 97;
-}
-
-.goTop:hover {
-    opacity: .7;
 }
 
 /* Mobile */
