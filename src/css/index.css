@@ -829,6 +829,16 @@ footer {
         color: #ffffff;
     }
 
+    /* Contact Me */
+    .firstname:focus,
+    .lastname:focus,
+    .email:focus,
+    .phone:focus,
+    .subject:focus,
+    .message:focus {
+        box-shadow: 0 0 4px #ffffff;
+    }
+
     /* Social Media */
     #social {
         background-color: #222222;
