@@ -779,13 +779,11 @@ footer {
 
     /* Share Button */
     .share-btn {
-        background: #333333;
+        background: #444444;
     }
 
     .share-sm .fa-facebook {
-        border-radius: 100%;
         color: #17A9FD;
-        background-color: #ffffff;
     }
 
     .share-sm .fa-twitter {
