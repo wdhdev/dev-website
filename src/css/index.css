@@ -561,10 +561,6 @@ footer {
     margin-right: 2px;
 }
 
-.share-sm a:nth-child(2) {
-    transition-delay: 60ms;
-}
-
 .share-btn:hover .text,
 .share-btn:hover .icon,
 .share-btn:hover .share-sm a {
@@ -576,7 +572,7 @@ footer {
 }
 
 .share-sm a:hover {
-    opacity: .7;
+    color: #ffffffa5;
 }
 
 /* Go Top Button */
@@ -592,13 +588,8 @@ footer {
     border: none;
     border-radius: 100%;
     font-size: 20px;
-    transition: .3s linear;
     cursor: pointer;
     z-index: 97;
-}
-
-.goTop:hover {
-    opacity: .7;
 }
 
 /* Mobile */
@@ -778,5 +769,15 @@ footer {
     #social {
         background-color: #222222;
         color: #ffffff;
+    }
+
+    /* Share Button */
+    .share-btn {
+        background: #333333;
+    }
+
+    /* Go Top Button */
+    .goTop {
+        background: #333333;
     }
 }
