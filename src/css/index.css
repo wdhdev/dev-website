@@ -529,7 +529,7 @@ footer {
     position: fixed;
     bottom: 25px;
     left: 25px;
-    transition: .3s linear;
+    transition: .3s;
     z-index: 97;
 }
 
@@ -556,10 +556,6 @@ footer {
 
 .icon {
     margin-right: 2px;
-}
-
-.share-sm a:nth-child(2) {
-    transition-delay: 60ms;
 }
 
 .share-btn:hover .text,
