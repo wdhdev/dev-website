@@ -205,6 +205,7 @@ section {
     background-color: #000000;
     bottom: 0;
     left: calc(50% - 40px);
+    transition: .3s linear;
 }
 
 .section-title::after {
@@ -216,6 +217,7 @@ section {
     border: 4px solid #f9f9f9;
     left: calc(50% - 12px);
     bottom: -7px;
+    transition: .3s linear;
 }
 
 /* About Me */
@@ -290,6 +292,12 @@ section {
     padding: 10px 20px;
 }
 
+.container .skill-box {
+    width: 60%;
+    margin: 25px 0;
+    transition: .3s linear;
+}
+
 .skill-box .skill-title {
     display: block;
     font-size: 14px;
@@ -303,11 +311,6 @@ section {
     border-radius: 6px;
     margin-top: 6px;
     background: #aaaaaa;
-}
-
-.container .skill-box {
-    width: 60%;
-    margin: 25px 0;
 }
 
 .skill-bar .skill-per {
@@ -391,6 +394,7 @@ section {
     padding: 30px;
     position: relative;
     border-radius: 8px;
+    transition: .3s linear;
 }
 
 .block::before {
@@ -616,10 +620,6 @@ footer {
     margin-right: 2px;
 }
 
-.share-sm a:nth-child(2) {
-    transition-delay: 60ms;
-}
-
 .share-btn:hover .text,
 .share-btn:hover .icon,
 .share-btn:hover .share-sm a {
@@ -631,7 +631,7 @@ footer {
 }
 
 .share-sm a:hover {
-    opacity: .7;
+    color: #ffffffa5;
 }
 
 /* Go Top Button */
@@ -647,13 +647,8 @@ footer {
     border: none;
     border-radius: 100%;
     font-size: 20px;
-    transition: .3s linear;
     cursor: pointer;
     z-index: 97;
-}
-
-.goTop:hover {
-    opacity: .7;
 }
 
 /* Mobile */
@@ -843,5 +838,15 @@ footer {
     #social {
         background-color: #222222;
         color: #ffffff;
+    }
+
+    /* Share Button */
+    .share-btn {
+        background: #333333;
+    }
+
+    /* Go Top Button */
+    .goTop {
+        background: #333333;
     }
 }
