@@ -292,6 +292,12 @@ section {
     padding: 10px 20px;
 }
 
+.container .skill-box {
+    width: 60%;
+    margin: 25px 0;
+    transition: .3s linear;
+}
+
 .skill-box .skill-title {
     display: block;
     font-size: 14px;
@@ -305,11 +311,6 @@ section {
     border-radius: 6px;
     margin-top: 6px;
     background: #aaaaaa;
-}
-
-.container .skill-box {
-    width: 60%;
-    margin: 25px 0;
 }
 
 .skill-bar .skill-per {
