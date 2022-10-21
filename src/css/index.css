@@ -380,7 +380,8 @@ section {
     transition: .3s linear;
 }
 
-.timeline, .projects {
+.timeline,
+.projects {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -483,6 +484,64 @@ section {
     opacity: 1;
 }
 
+/* Contact Me */
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-form button,
+.contact-form input,
+.contact-form textarea {
+    font-size: 15px;
+    width: 100%;
+    height: 50px;
+    margin: 8px 0;
+    background-color: #353b48;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    padding: 20px;
+    border-radius: 6px;
+    transition: .3s linear;
+}
+
+.contact-form textarea {
+    height: 200px;
+    resize: none;
+}
+
+.firstname:focus,
+.lastname:focus,
+.email:focus,
+.phone:focus,
+.subject:focus,
+.message:focus {
+    box-shadow: 0 0 4px #222222;
+}
+
+.firstname,
+.lastname,
+.email,
+.phone {
+    max-width: calc(50% - 10px);
+}
+
+.contact-form .btn {
+    width: 170px;
+    font-size: 16px;
+    padding: 0;
+    margin-right: auto;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: .3s linear;
+}
+
+.contact-form .btn:hover {
+    background-color: #353b48b2;
+}
+
 /* Social Media */
 #social {
     transition: .3s linear;
@@ -552,7 +611,8 @@ footer {
     border-radius: 40px;
 }
 
-.text, .icon {
+.text,
+.icon {
     display: inline-block;
     transition-delay: 60ms;
     transition: .3s;
@@ -673,6 +733,13 @@ footer {
         width: calc(50% - 10px);
         margin-left: auto;
     }
+
+    /* Contact Me */
+    .contact-form .btn {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -683,6 +750,14 @@ footer {
     /* Projects */
     .project {
         width: 100%;
+    }
+
+    /* Contact Me */
+    .firstname,
+    .lastname,
+    .email,
+    .phone {
+        max-width: 100%;
     }
 
     /* Share Button */
@@ -764,6 +839,16 @@ footer {
     #projects {
         background-color: #222222;
         color: #ffffff;
+    }
+
+    /* Contact Me */
+    .firstname:focus,
+    .lastname:focus,
+    .email:focus,
+    .phone:focus,
+    .subject:focus,
+    .message:focus {
+        box-shadow: 0 0 4px #ffffff;
     }
 
     /* Social Media */

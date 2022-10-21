@@ -77,7 +77,7 @@
                     <a href="#about">About</a>
                     <a href="#education">Education</a>
                     <a href="#projects">Projects</a>
-                    <a href="/contact">Contact Me</a>
+                    <a href="#contact">Contact Me</a>
                 </div>
             </div>
 
@@ -277,6 +277,25 @@
                         </div>
                     </a>
                 </div>
+            </div>
+        </section>
+
+        <!-- Contact Me -->
+        <section id="contact">
+            <div class="inner-width">
+                <h1 class="section-title">Contact Me</h1>
+
+                <!-- Form -->
+                <form id="contact" class="contact-form" action="/contact/success" method="POST" data-netlify="true">
+                    <input type="text" name="firstname" class="firstname" id="firstname" placeholder="First Name" required>
+                    <input type="text" name="lastname" class="lastname" id="lastname" placeholder="Last Name" required>
+                    <input type="email" name="email" class="email" id="email" placeholder="Email" required>
+                    <input type="tel" name="phone" class="phone" id="phone" placeholder="Phone Number">
+                    <input type="text" name="subject" class="subject" id="subject" placeholder="Subject" required>
+                    <textarea name="message" class="message" id="message" placeholder="Message" maxlength="2048" required></textarea>
+
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
             </div>
         </section>
 
