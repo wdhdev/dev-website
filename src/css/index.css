@@ -733,6 +733,11 @@ footer {
     }
 
     /* Contact Me */
+    .contact-form .btn {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -743,6 +748,11 @@ footer {
     /* Projects */
     .project {
         width: 100%;
+    }
+
+    /* Contact Me */
+    .firstname, .lastname {
+        max-width: 100%;
     }
 
     /* Share Button */
