@@ -380,7 +380,8 @@ section {
     transition: .3s linear;
 }
 
-.timeline, .projects {
+.timeline,
+.projects {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -610,7 +611,8 @@ footer {
     border-radius: 40px;
 }
 
-.text, .icon {
+.text,
+.icon {
     display: inline-block;
     transition-delay: 60ms;
     transition: .3s;
@@ -751,7 +753,10 @@ footer {
     }
 
     /* Contact Me */
-    .firstname, .lastname {
+    .firstname,
+    .lastname,
+    .email,
+    .phone {
         max-width: 100%;
     }
 
