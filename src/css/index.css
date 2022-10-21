@@ -731,6 +731,8 @@ footer {
         width: calc(50% - 10px);
         margin-left: auto;
     }
+
+    /* Contact Me */
 }
 
 @media screen and (max-width: 600px) {
