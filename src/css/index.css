@@ -420,6 +420,10 @@ section {
     border-radius: 50%;
 }
 
+.block img {
+    border-radius: 8px;
+}
+
 .block h3 {
     font-size: 16px;
     margin: 10px 0;
