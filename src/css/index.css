@@ -422,13 +422,10 @@ section {
 
 .block img {
     float: right;
+    height: 50%;
+    width: 50%;
     margin-bottom: 0;
     border-radius: 8px;
-}
-
-.is-a-dev {
-    height: 140px;
-    width: 280px;
 }
 
 .block h3 {
