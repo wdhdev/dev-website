@@ -422,8 +422,6 @@ section {
 
 .block img {
     float: right;
-    height: 100%;
-    width: 30%;
     margin-bottom: 0;
     border-radius: 4px;
 }
