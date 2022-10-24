@@ -578,64 +578,6 @@ footer {
     font-size: 16px;
 }
 
-/* Share Button */
-.share-btn {
-    background: linear-gradient(30deg, #3498db, #5363d8);
-    border: none;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 16px 20px;
-    cursor: pointer;
-    overflow: hidden;
-    border-radius: 40px;
-    color: #ffffff;
-    position: fixed;
-    bottom: 25px;
-    left: 25px;
-    transition: .3s;
-    z-index: 97;
-}
-
-.share-sm {
-    position: absolute;
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    transform: translateY(100%);
-}
-
-.share-btn:hover {
-    padding: 16px 10px;
-    border-radius: 40px;
-}
-
-.text,
-.icon {
-    display: inline-block;
-    transition-delay: 60ms;
-    transition: .3s;
-}
-
-.icon {
-    margin-right: 2px;
-}
-
-.share-btn:hover .text,
-.share-btn:hover .icon,
-.share-btn:hover .share-sm a {
-    transform: translateY(-40px);
-}
-
-.share-sm a {
-    color: #ffffff;
-}
-
-.share-sm a:hover {
-    color: #ffffffa5;
-}
-
 /* Go Top Button */
 .goTop {
     display: none;
@@ -759,11 +701,6 @@ footer {
     .phone {
         max-width: 100%;
     }
-
-    /* Share Button */
-    .share-btn {
-        display: none;
-    }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -855,11 +792,6 @@ footer {
     #social {
         background-color: #222222;
         color: #ffffff;
-    }
-
-    /* Share Button */
-    .share-btn {
-        background: #333333;
     }
 
     /* Go Top Button */
