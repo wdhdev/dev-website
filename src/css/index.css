@@ -421,6 +421,9 @@ section {
 }
 
 .block img {
+    height: 100px;
+    width: 100px;
+    justify-content: right;
     border-radius: 8px;
 }
 
