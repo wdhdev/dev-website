@@ -422,8 +422,9 @@ section {
 
 .block img {
     height: 100px;
-    width: 100px;
+    width: 200px;
     justify-content: right;
+    display: inline-block;
     border-radius: 8px;
 }
 
