@@ -421,10 +421,9 @@ section {
 }
 
 .block img {
+    float: right;
     height: 200px;
     width: 200px;
-    display: inline;
-    justify-content: right;
     border-radius: 8px;
 }
 
