@@ -424,7 +424,6 @@ section {
     height: 100px;
     width: 200px;
     justify-content: right;
-    display: inline-block;
     border-radius: 8px;
 }
 
