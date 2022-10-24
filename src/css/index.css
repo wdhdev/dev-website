@@ -421,8 +421,9 @@ section {
 }
 
 .block img {
-    height: 100px;
+    height: 200px;
     width: 200px;
+    display: inline;
     justify-content: right;
     border-radius: 8px;
 }
