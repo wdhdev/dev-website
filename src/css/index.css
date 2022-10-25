@@ -232,9 +232,9 @@ section {
 }
 
 .about-pic {
-    width: 200px;
-    border-radius: 50%;
-    margin-right: 100px;
+    width: 175px;
+    border-radius: 100%;
+    margin-right: 40px;
 }
 
 .about-text {
@@ -275,6 +275,16 @@ section {
 
 .about-sm a:hover {
     opacity: .7;
+}
+
+.icons {
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.set {
+    margin-top: 10px;
 }
 
 /* Skills */
@@ -641,13 +651,14 @@ footer {
         max-width: 800px;
     }
 
-    /* About */
+    /* About Me */
     .about-pic {
-        margin: 0 auto 60px;
+        margin: 0 auto 20px;
     }
 
     .about-text {
         flex: 100%;
+        margin: 0 50px;
         text-align: center;
     }
 
@@ -660,6 +671,11 @@ footer {
         margin-top: 2px;
     }
 
+    .icons {
+        display: none;
+    }
+
+    /* Skills */
     .container .skill-box {
         width: 100%;
     }
