@@ -18,7 +18,7 @@ TxtType.prototype.tick = function() {
         this.txt = fullTxt.substring(0, this.txt.length + 1);
     }
 
-    this.el.innerHTML = "<span class='wrap'>"+this.txt+"</span>";
+    this.el.innerHTML = "<span class=\"wrap\">"+this.txt+"</span>";
 
     var that = this;
     var delta = 200 - Math.random() * 100;
@@ -43,6 +43,7 @@ TxtType.prototype.tick = function() {
 
 window.onload = function() {
     var elements = document.getElementsByClassName("typewrite");
+
     for(var i=0; i < elements.length; i++) {
         var toRotate = elements[i].getAttribute("data-type");
         var period = elements[i].getAttribute("data-period");
