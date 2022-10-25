@@ -696,7 +696,14 @@ footer {
     /* Projects */
     .project {
         width: calc(50% - 10px);
-        margin-left: auto;
+    }
+
+    .project .info h3 {
+        text-align: center;
+    }
+
+    .cat {
+        display: none;
     }
 
     /* Contact Me */
