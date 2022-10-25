@@ -310,7 +310,7 @@ section {
 }
 
 .container .skill-box {
-    width: 60%;
+    width: 50%;
     margin: 25px 0;
     transition: .3s linear;
 }
