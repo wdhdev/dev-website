@@ -278,9 +278,18 @@ section {
 }
 
 .icons {
+    display: none;
     margin-top: 50px;
     margin-left: 30px;
     width: 100%;
+}
+
+.icons .light {
+    display: block;
+}
+
+.icons .dark {
+    display: none;
 }
 
 .set {
@@ -761,6 +770,15 @@ footer {
         color: #ffffff;
     }
 
+    .icons .light {
+        display: none;
+    }
+
+    .icons .dark {
+        display: block;
+    }
+
+    /* Skills */
     .skill-box .skill-title {
         color: #ffffff;
     }
