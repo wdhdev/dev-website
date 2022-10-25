@@ -73,6 +73,7 @@ a:hover {
 }
 
 .menu-toggler {
+    display: none;
     background: none;
     width: 30px;
     border: none;
@@ -80,7 +81,7 @@ a:hover {
     position: relative;
     outline: none;
     z-index: 999;
-    display: none;
+    transition: .3s linear;
 }
 
 .menu-toggler span {
@@ -89,7 +90,6 @@ a:hover {
     background-color: #ffffff;
     margin: 6px 0;
     position: relative;
-    transition: .3s linear;
 }
 
 .navbar-menu a {
