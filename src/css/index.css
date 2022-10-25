@@ -675,14 +675,6 @@ footer {
         width: calc(50% - 10px);
     }
 
-    .project .info h3 {
-        text-align: center;
-    }
-
-    .cat {
-        display: none;
-    }
-
     /* Contact Me */
     .contact-form .btn {
         width: 100%;
@@ -699,6 +691,14 @@ footer {
     /* Projects */
     .project {
         width: 100%;
+    }
+
+    .project .info h3 {
+        text-align: center;
+    }
+
+    .cat {
+        display: none;
     }
 
     /* Contact Me */
