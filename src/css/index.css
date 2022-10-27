@@ -590,11 +590,11 @@ section {
     height: 70px;
     width: 70px;
     border-radius: 100%;
-    transition: .3s linear;
+    transition: .5s transform ease;
 }
 
 .social-media img:hover {
-    opacity: .7;
+    transform: scale(1.2);
 }
 
 /* Footer */
