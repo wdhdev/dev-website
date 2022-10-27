@@ -232,9 +232,18 @@ section {
 }
 
 .about-pic {
-    width: 175px;
-    border-radius: 100%;
     margin-right: 40px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.about-pic img {
+    width: 175px;
+    transition: .5s transform ease;
+}
+
+.about-pic img:hover {
+    transform: scale(1.2);
 }
 
 .about-text {
