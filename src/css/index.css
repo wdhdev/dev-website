@@ -157,7 +157,7 @@ a:hover {
 }
 
 .sm a:hover {
-    opacity: .7;
+    color: #ffffffa5;
 }
 
 #home .buttons {
@@ -232,9 +232,18 @@ section {
 }
 
 .about-pic {
-    width: 175px;
-    border-radius: 100%;
     margin-right: 40px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.about-pic img {
+    width: 175px;
+    transition: .5s transform ease;
+}
+
+.about-pic img:hover {
+    transform: scale(1.2);
 }
 
 .about-text {
@@ -465,6 +474,11 @@ section {
     width: 100%;
     height: 100%;
     border-radius: 8px;
+    transition: .5s transform ease;
+}
+
+.project:hover img {
+    transform: scale(1.1);
 }
 
 .project::before {
@@ -474,7 +488,7 @@ section {
     height: 100%;
     z-index: 1;
     background-color: #000000a5;
-    transition: .3s linear;
+    transition: .4s linear;
     opacity: 0;
 }
 
@@ -484,7 +498,7 @@ section {
     bottom: 40px;
     left: 40px;
     color: #ffffff;
-    transition: all .3s ease-out;
+    transition: all .4s ease-out;
     opacity: 0;
 }
 
@@ -492,7 +506,7 @@ section {
     font-weight: 700;
 }
 
-.info .cat {
+.info .desc {
     font-weight: 400;
 }
 
@@ -576,11 +590,11 @@ section {
     height: 70px;
     width: 70px;
     border-radius: 100%;
-    transition: .3s linear;
+    transition: .5s transform ease;
 }
 
 .social-media img:hover {
-    opacity: .7;
+    transform: scale(1.2);
 }
 
 /* Footer */
@@ -698,11 +712,19 @@ footer {
         width: calc(50% - 10px);
     }
 
+    .project::before {
+        opacity: 1;
+    }
+
+    .project .info {
+        opacity: 1;
+    }
+
     .project .info h3 {
         text-align: center;
     }
 
-    .cat {
+    .desc {
         display: none;
     }
 
