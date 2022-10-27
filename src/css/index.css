@@ -703,6 +703,14 @@ footer {
         width: calc(50% - 10px);
     }
 
+    .project::before {
+        opacity: 1;
+    }
+
+    .project .info {
+        opacity: 1;
+    }
+
     .project .info h3 {
         text-align: center;
     }
@@ -820,14 +828,6 @@ footer {
     #projects {
         background-color: #222222;
         color: #ffffff;
-    }
-
-    .project::before {
-        opacity: 1;
-    }
-
-    .project .info {
-        opacity: 1;
     }
 
     /* Contact Me */
