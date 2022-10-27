@@ -822,6 +822,14 @@ footer {
         color: #ffffff;
     }
 
+    .project::before {
+        opacity: 1;
+    }
+
+    .project .info {
+        opacity: 1;
+    }
+
     /* Contact Me */
     .firstname:focus,
     .lastname:focus,
