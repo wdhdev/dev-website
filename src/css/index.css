@@ -465,6 +465,11 @@ section {
     width: 100%;
     height: 100%;
     border-radius: 8px;
+    transition: .3s transform;
+}
+
+.project:hover img {
+    transform: scale(1.1);
 }
 
 .project::before {
@@ -492,7 +497,7 @@ section {
     font-weight: 700;
 }
 
-.info .cat {
+.info .desc {
     font-weight: 400;
 }
 
@@ -702,7 +707,7 @@ footer {
         text-align: center;
     }
 
-    .cat {
+    .desc {
         display: none;
     }
 
