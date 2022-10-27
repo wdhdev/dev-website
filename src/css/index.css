@@ -239,6 +239,7 @@ section {
 
 .about-pic img {
     width: 175px;
+    border-radius: 100%;
     transition: .5s transform ease;
 }
 
