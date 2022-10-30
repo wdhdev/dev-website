@@ -189,6 +189,7 @@ section {
 
 .section-title {
     text-align: center;
+    margin-top: 20px;
     margin-bottom: 60px;
     position: relative;
     font-size: 26px;
