@@ -327,9 +327,10 @@ section {
 }
 
 .skill-box img {
+    float: left;
     height: 32px;
     width: 32px;
-    margin-bottom: 4px;
+    margin-right: 10px;
     border-radius: 4px;
 }
 
@@ -343,6 +344,7 @@ section {
 .skill-box .skill-bar {
     height: 8px;
     width: 100%;
+    margin-left: 41px;
     border-radius: 6px;
     margin-top: 6px;
     background: #aaaaaa;
