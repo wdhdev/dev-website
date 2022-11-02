@@ -326,6 +326,11 @@ section {
     transition: .3s linear;
 }
 
+.skill-box img {
+    height: 64px;
+    width: 64px;
+}
+
 .skill-box .skill-title {
     display: block;
     font-size: 14px;
