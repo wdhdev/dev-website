@@ -712,6 +712,15 @@ footer {
         width: 100%;
     }
 
+    .skill-box img {
+        float: none;
+        margin-bottom: 4px;
+    }
+
+    .skill-box .skill-bar {
+        margin-left: 0;
+    }
+
     /* Education */
     .block {
         width: calc(100% - 20px);
