@@ -330,6 +330,7 @@ section {
     float: left;
     height: 32px;
     width: 32px;
+    margin-top: 1px;
     margin-right: 10px;
     border-radius: 4px;
 }
