@@ -288,24 +288,6 @@ section {
     opacity: .7;
 }
 
-.icons {
-    margin-top: 50px;
-    margin-left: 30px;
-    width: 100%;
-}
-
-.icons .light {
-    display: block;
-}
-
-.icons .dark {
-    display: none;
-}
-
-.set {
-    margin-top: 10px;
-}
-
 /* Skills */
 .skills {
     display: flex;
@@ -704,10 +686,6 @@ footer {
         margin-top: 2px;
     }
 
-    .icons {
-        display: none;
-    }
-
     /* Skills */
     .container .skill-box {
         width: 100%;
@@ -817,14 +795,6 @@ footer {
 
     .about-sm a {
         color: #ffffff;
-    }
-
-    .icons .light {
-        display: none;
-    }
-
-    .icons .dark {
-        display: block;
     }
 
     /* Skills */
