@@ -693,7 +693,7 @@ footer {
 
     .skill-box img {
         float: none;
-        margin-bottom: 4px;
+        margin-bottom: 2px;
     }
 
     .skill-box .skill-bar {
@@ -798,11 +798,11 @@ footer {
     }
 
     /* Skills */
-    .skill-box .skill-title {
+    .skill-box {
         color: #ffffff;
     }
 
-    .skill-box {
+    .skill-box .skill-title {
         color: #ffffff;
     }
 
