@@ -445,6 +445,10 @@ section {
     margin: 10px 0;
 }
 
+.block h4 {
+    font-size: 14px;
+}
+
 .block p {
     font-size: 14px;
     color: #444444;
