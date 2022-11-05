@@ -486,7 +486,7 @@ section {
     height: 100%;
     z-index: 1;
     background-color: #000000a5;
-    transition: .4s linear;
+    transition: .3s linear;
     opacity: 0;
 }
 
@@ -496,7 +496,7 @@ section {
     bottom: 40px;
     left: 40px;
     color: #ffffff;
-    transition: all .4s ease-out;
+    transition: all .3s linear;
     opacity: 0;
 }
 
