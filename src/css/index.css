@@ -588,11 +588,11 @@ section {
     height: 70px;
     width: 70px;
     border-radius: 100%;
-    transition: .5s transform ease;
+    transition: .4s transform ease;
 }
 
 .social-media img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 /* Footer */
