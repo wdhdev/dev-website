@@ -183,13 +183,13 @@ a:hover {
 
 /* Sections */
 section {
-    padding: 100px 0;
+    padding: 90px 0;
     background-color: #f9f9f9;
 }
 
 .section-title {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 60px;
     position: relative;
     font-size: 26px;
