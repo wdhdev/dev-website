@@ -527,7 +527,7 @@ section {
     width: 100%;
     height: 50px;
     margin: 8px 0;
-    background-color: #353b48;
+    background-color: #292929;
     color: #ffffff;
     border: none;
     outline: none;
@@ -832,6 +832,12 @@ footer {
     #projects {
         background-color: #222222;
         color: #ffffff;
+    }
+
+    .contact-form button,
+    .contact-form input,
+    .contact-form textarea {
+        background-color: #393939;
     }
 
     /* Contact Me */
