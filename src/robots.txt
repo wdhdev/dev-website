@@ -1,7 +1,9 @@
 User-agent: *
 Disallow: /assets/404/*
+Disallow: /assets/projects/none.png
 Disallow: /css/*
 Disallow: /js/*
+Disallow: /noscript/*
 Disallow: _redirects
 Disallow: 404.html
 Allow: /assets/*
