@@ -288,111 +288,16 @@ section {
     opacity: .7;
 }
 
-/* Skills */
 .skills {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    margin: 0 20px;
+    margin-top: 30px;
+    max-width: 100%;
 }
 
-.container {
-    position: relative;
-    width: 100%;
-    margin: 0 15px;
-    padding: 10px 20px;
-}
-
-.container .skill-box {
-    width: 50%;
-    margin: 25px 0;
-    transition: .3s linear;
-}
-
-.skill-box img {
-    float: left;
-    height: 32px;
-    width: 32px;
-    margin-top: 1px;
-    margin-right: 10px;
-    border-radius: 4px;
-}
-
-.skill-box .skill-title {
-    display: block;
-    font-size: 14px;
-    font-weight: 500;
-    color: #333333;
-}
-
-.skill-box .skill-bar {
-    height: 8px;
-    width: 100%;
-    margin-left: 41px;
-    border-radius: 6px;
-    margin-top: 6px;
-    background: #aaaaaa;
-}
-
-.skill-bar .skill-per {
-    position: relative;
-    display: block;
-    height: 100%;
-    border-radius: 6px;
-    background: #4070f4;
-    animation: progress 1s ease-in-out forwards;
-    opacity: 0;
-}
-
-.skill-per.css {
-    width: 70%;
-}
-
-.skill-per.html {
-    width: 95%;
-}
-
-.skill-per.js {
-    width: 80%;
-}
-
-.skill-per.nodejs {
-    width: 80%;
-}
-
-@keyframes progress {
-    0% {
-        width: 0;
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-.skill-per .tooltip {
-    position: absolute;
-    right: -14px;
-    top: -28px;
-    font-size: 13px;
-    font-weight: 500;
-    color: #ffffff;
-    padding: 2px 6px;
-    border-radius: 4px;
-    background: #4070f4;
-    z-index: 1;
-}
-
-.tooltip::before {
-    content: "";
-    position: absolute;
-    left: 50%;
-    bottom: -2px;
-    height: 12px;
-    width: 10px;
-    z-index: -1;
-    background-color: #4070f4;
-    transform: translateX(-50%) rotate(45deg);
+.skills img {
+    height: 48px;
+    width: 48px;
+    margin: 0 2px 6px;
 }
 
 /* Education */
@@ -443,9 +348,11 @@ section {
 .block h3 {
     font-size: 16px;
     margin: 10px 0;
+    font-weight: 500;
 }
 
 .block h4 {
+    font-weight: 500;
     font-size: 14px;
 }
 
@@ -466,6 +373,7 @@ section {
     margin: 10px 0;
     cursor: pointer;
     position: relative;
+    outline: #000000 solid 2px;
 }
 
 .project img {
@@ -607,6 +515,11 @@ footer {
     font-size: 16px;
 }
 
+.source {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
 /* Go Top Button */
 .goTop {
     display: none;
@@ -690,18 +603,8 @@ footer {
         margin-top: 2px;
     }
 
-    /* Skills */
-    .container .skill-box {
-        width: 100%;
-    }
-
-    .skill-box img {
-        float: none;
-        margin-bottom: 2px;
-    }
-
-    .skill-box .skill-bar {
-        margin-left: 0;
+    .skills {
+        text-align: center;
     }
 
     /* Education */
@@ -801,19 +704,6 @@ footer {
         color: #ffffff;
     }
 
-    /* Skills */
-    .skill-box {
-        color: #ffffff;
-    }
-
-    .skill-box .skill-title {
-        color: #ffffff;
-    }
-
-    .skill-box .skill-bar {
-        background: #444444;
-    }
-
     /* Education */
     #education {
         background-color: #222222;
@@ -832,6 +722,10 @@ footer {
     #projects {
         background-color: #222222;
         color: #ffffff;
+    }
+
+    .project {
+        outline: #666666 solid 2px;
     }
 
     .contact-form button,

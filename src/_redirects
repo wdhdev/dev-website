@@ -1,6 +1,7 @@
 /contact /#contact
 /home / 301
 /links https://williamharrison.me
+/source https://github.com/williamdavidharrison/dev-website
 
 /about/is-a-dev https://github.com/is-a-dev/register
 /about/is-a-good-dev https://github.com/is-a-good-dev/register
@@ -14,8 +15,10 @@
 /projects/coming-soon https://github.williamharrison.dev/coming-soon
 /projects/discord https://discord.williamharrison.me
 /projects/eyes https://github.williamharrison.dev/eyes
+/projects/html-404-page https://github.williamharrison.dev/html-404-page
 /projects/personal https://william.net.au
-/projects/wu https://williamsutilities.tk
+/projects/text-card https://github.williamharrison.dev/text-card
+/projects/wu https://bot.williamharrison.dev
 
 /discord https://discord.com/users/853158265466257448
 /facebook https://www.facebook.com/wdharrison09
