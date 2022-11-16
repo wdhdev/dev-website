@@ -728,13 +728,13 @@ footer {
         outline: #666666 solid 2px;
     }
 
+    /* Contact Me */
     .contact-form button,
     .contact-form input,
     .contact-form textarea {
-        background-color: #393939;
+        background-color: #353b48;
     }
 
-    /* Contact Me */
     .firstname:focus,
     .lastname:focus,
     .email:focus,
