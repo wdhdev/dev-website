@@ -288,6 +288,17 @@ section {
     opacity: .7;
 }
 
+.skills {
+    margin: 0 20px;
+    margin-top: 30px;
+    max-width: 100%;
+}
+
+.skills img {
+    height: 48px;
+    width: 48px;
+}
+
 /* Education */
 #education {
     transition: .3s linear;
@@ -581,6 +592,10 @@ footer {
 
     .about-sm {
         margin-top: 2px;
+    }
+
+    .skills {
+        text-align: center;
     }
 
     /* Education */
