@@ -513,6 +513,11 @@ footer {
     font-size: 16px;
 }
 
+.source {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
 /* Go Top Button */
 .goTop {
     display: none;
