@@ -297,6 +297,7 @@ section {
 .skills img {
     height: 48px;
     width: 48px;
+    margin: 0 2px 6px;
 }
 
 /* Education */
