@@ -371,6 +371,7 @@ section {
     margin: 10px 0;
     cursor: pointer;
     position: relative;
+    outline: #000000 solid 2px;
 }
 
 .project img {
@@ -714,6 +715,10 @@ footer {
     #projects {
         background-color: #222222;
         color: #ffffff;
+    }
+
+    .project {
+        outline: #f9f9f9 solid 2px;
     }
 
     .contact-form button,
