@@ -516,8 +516,11 @@ footer {
 }
 
 .source {
-    margin-top: 10px;
-    font-weight: 500;
+    margin-top: 20px;
+}
+
+.source img {
+    border-radius: 8px;
 }
 
 /* Go Top Button */
