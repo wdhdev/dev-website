@@ -373,7 +373,6 @@ section {
     margin: 10px 0;
     cursor: pointer;
     position: relative;
-    outline: #000000 solid 2px;
 }
 
 .project img {
@@ -725,10 +724,6 @@ footer {
     #projects {
         background-color: #222222;
         color: #ffffff;
-    }
-
-    .project {
-        outline: #666666 solid 2px;
     }
 
     /* Contact Me */
