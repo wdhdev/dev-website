@@ -68,7 +68,7 @@ a:hover {
 .logo {
     width: 65px;
     height: 65px;
-    background-image: url(/assets/logo.png);
+    background: url(/assets/logo.png) no-repeat;
     background-size: contain;
 }
 
