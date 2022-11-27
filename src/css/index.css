@@ -633,6 +633,10 @@ footer {
         margin-left: auto;
     }
 
+    .block img {
+        display: none;
+    }
+
     /* Projects */
     .project {
         width: calc(50% - 10px);
