@@ -352,10 +352,11 @@ section {
 
 .is-a-dev img {
     height: 100px;
+    width: 30%;
 }
 
 .is-a-good-dev img {
-    height: 96px;
+    height: 84px;
     border-radius: 100%;
 }
 
