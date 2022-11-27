@@ -170,10 +170,10 @@ a:hover {
     color: #ffffff;
     font-size: 15px;
     font-weight: 500;
-    width: 160px;
+    width: 140px;
     border: 2px solid #20b2aa;
     padding: 14px 0;
-    border-radius: 8px;
+    border-radius: 30px;
     transition: .3s linear;
 }
 
