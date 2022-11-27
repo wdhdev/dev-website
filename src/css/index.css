@@ -345,6 +345,20 @@ section {
     border-radius: 50%;
 }
 
+.block img {
+    float: right;
+    border-radius: 8px;
+}
+
+.is-a-dev img {
+    height: 100px;
+}
+
+.is-a-good-dev img {
+    height: 96px;
+    border-radius: 100%;
+}
+
 .block h3 {
     font-size: 16px;
     margin: 10px 0;
