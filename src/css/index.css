@@ -359,6 +359,10 @@ section {
     border-radius: 100%;
 }
 
+.ffa img {
+    height: 100px;
+}
+
 .block h3 {
     font-size: 16px;
     margin: 10px 0;
