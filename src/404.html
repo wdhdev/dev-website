@@ -35,6 +35,8 @@
     </body>
 
     <script>
-        document.getElementById("h4").innerHTML = `${window.location}`;
+        const location = `${window.location.pathname}${window.location.search}`;
+
+        document.getElementById("h4").innerHTML = location;
     </script>
 </html>
