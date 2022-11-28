@@ -25,7 +25,7 @@
             <div class="content">
                 <!-- Error Message -->
                 <h2>Error 404</h2>
-                <h4>Page Not Found</h4>
+                <h4 id="h4">Page Not Found</h4>
                 <p>The page you were looking for does not exist. You may have mistyped the URL or the page may have moved.</p>
 
                 <!-- Home Button -->
@@ -33,4 +33,8 @@
             </div>
         </div>
     </body>
+
+    <script>
+        document.getElementById("h4").innerHTML = `${window.location}`;
+    </script>
 </html>
