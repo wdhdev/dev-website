@@ -1,12 +1,15 @@
 User-agent: *
+
 Disallow: /assets/404/*
 Disallow: /assets/projects/none.png
 Disallow: /css/*
 Disallow: /js/*
 Disallow: /noscript/*
 Disallow: /contact/success.html
-Disallow: /noscript/index.html
 Disallow: 404.html
+Disallow: noscript.html
+
 Allow: /assets/*
 Allow: index.html
+
 Sitemap: sitemap.xml
