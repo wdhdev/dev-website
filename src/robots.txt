@@ -4,8 +4,8 @@ Disallow: /assets/projects/none.png
 Disallow: /css/*
 Disallow: /js/*
 Disallow: /noscript/*
-Disallow: _redirects
 Disallow: 404.html
+Disallow: /contact/success.html
 Allow: /assets/*
 Allow: index.html
 Sitemap: sitemap.xml
