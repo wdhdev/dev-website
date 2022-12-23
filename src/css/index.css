@@ -314,7 +314,7 @@ section {
 
 .block {
     width: calc(100% - 20px);
-    background: #eeeeee;
+    background: #ffffff;
     border: 2px solid #444444;
     margin: 10px 0;
     padding: 30px;
@@ -326,8 +326,9 @@ section {
 .block::before {
     content: "";
     position: absolute;
-    width: 1px;
+    width: 2px;
     height: 120%;
+    background-color: #000000;
     left: -20px;
     top: 30%;
     transform: rotateY(-50%);
@@ -741,6 +742,10 @@ footer {
 
     .block {
         background: #191919;
+    }
+
+    .block::before {
+        background-color: #f9f9f9;
     }
 
     .block p {
