@@ -355,13 +355,18 @@ section {
     border-radius: 100%;
 }
 
+.is-a-dev img {
+    height: 84px;
+    border-radius: 100%;
+}
+
 .is-a-good-dev img {
     height: 84px;
     border-radius: 100%;
 }
 
 .ffa img {
-    height: 100px;
+    height: 84px;
 }
 
 .block h3 {
