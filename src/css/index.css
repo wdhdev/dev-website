@@ -350,8 +350,9 @@ section {
     border-radius: 8px;
 }
 
-.is-a-dev img {
-    width: 25%;
+.open-domains img {
+    height: 84px;
+    border-radius: 100%;
 }
 
 .is-a-good-dev img {
