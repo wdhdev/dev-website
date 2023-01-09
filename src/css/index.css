@@ -4,6 +4,7 @@
     text-decoration: none;
     font-family: "Ubuntu", sans-serif;
     box-sizing: border-box;
+    border: none;
 }
 
 /* Scroll Bar */
@@ -35,11 +36,14 @@ html {
 /* Links */
 a {
     color: #0055b3;
-    transition: .3s linear;
+    border-radius: 2px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid rgba(0, 102, 204, .2);
+    transition: .5s;
 }
 
 a:hover {
-    color: #0055b3b2;
+    border-color: #0055b3b2;
 }
 
 /* Navigation Bar */
@@ -70,6 +74,7 @@ a:hover {
     height: 65px;
     background: url(/assets/logo.png) no-repeat;
     background-size: contain;
+    border: none;
 }
 
 .menu-toggler {
@@ -98,6 +103,7 @@ a:hover {
     font-weight: 500;
     margin-left: 30px;
     transition: .3s linear;
+    border: none;
 }
 
 .navbar-menu a:hover {
@@ -124,6 +130,10 @@ a:hover {
     background: url(/assets/background.jpg) no-repeat scroll center;
     background-size: cover;
     background-attachment: fixed;
+}
+
+#home a {
+    border: none;
 }
 
 #home .inner-width {
@@ -282,6 +292,7 @@ section {
     color: #000000;
     font-size: 22px;
     transition: .3s linear;
+    border: none;
 }
 
 .about-sm a:hover {
@@ -396,6 +407,7 @@ section {
     margin: 10px 0;
     cursor: pointer;
     position: relative;
+    border: none;
 }
 
 .project img {
@@ -522,7 +534,7 @@ section {
 }
 
 .social-media img:hover {
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
 }
 
 /* Footer */
@@ -694,11 +706,14 @@ footer {
     /* Links */
     a {
         color: #03a9f4;
-        transition: .3s linear;
+        border-radius: 2px;
+        padding-bottom: 2px;
+        border-bottom: 2px solid rgba(0, 102, 204, .2);
+        transition: .5s;
     }
 
     a:hover {
-        color: #03a9f4b2;
+        border-color: rgb(0, 102, 204, .6);
     }
 
     /* Sections */
