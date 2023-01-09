@@ -316,8 +316,7 @@ section {
     transition: .3s linear;
 }
 
-.timeline,
-.projects {
+.timeline {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -354,6 +353,10 @@ section {
     left: -28px;
     top: 30px;
     border-radius: 50%;
+}
+
+.block a {
+    border: none;
 }
 
 .block img {
@@ -398,6 +401,12 @@ section {
 /* Projects */
 #projects {
     transition: .3s linear;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .project {
