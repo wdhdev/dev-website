@@ -357,7 +357,7 @@ section {
 
 .is-a-dev img {
     height: 84px;
-    border-radius: 100%;
+    border-radius: 8px;
 }
 
 .is-a-good-dev img {
