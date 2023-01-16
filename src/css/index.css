@@ -540,10 +540,7 @@ section {
     width: 70px;
     border-radius: 100%;
     transition: .5s ease;
-}
-
-.social-media img:hover {
-    /* transform: scale(1.1); */
+    margin-top: 16px;
 }
 
 /* Footer */
