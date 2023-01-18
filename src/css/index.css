@@ -358,6 +358,11 @@ section {
 
 .block a {
     border: none;
+    transition: .5s;
+}
+
+.block a:hover {
+    opacity: .8;
 }
 
 .block img {
@@ -716,11 +721,11 @@ footer {
         border-radius: 2px;
         padding-bottom: 2px;
         border-bottom: 2px solid rgba(0, 102, 204, .2);
-        transition: .5s;
+        transition: 1s;
     }
 
     a:hover {
-        border-color: rgb(0, 102, 204, .6);
+        border-color: #0096ff;
     }
 
     /* Sections */
