@@ -566,18 +566,6 @@ footer {
     text-align: center;
 }
 
-.copyright {
-    font-size: 16px;
-}
-
-.source {
-    margin-top: 20px;
-}
-
-.source img {
-    border-radius: 4px;
-}
-
 /* Go Top Button */
 .goTop {
     display: none;
