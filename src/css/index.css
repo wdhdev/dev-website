@@ -566,6 +566,22 @@ footer {
     text-align: center;
 }
 
+.source {
+    border: none;
+    border-radius: 2rem;
+    background-color: #0055b333;
+    padding: 8px 16px;
+    transition: .3s linear;
+}
+
+.source:hover {
+    background-color: #0055b366;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
 /* Go Top Button */
 .goTop {
     display: none;
