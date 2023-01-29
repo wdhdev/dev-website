@@ -252,11 +252,16 @@ section {
 .about-pic img {
     width: 175px;
     border-radius: 100%;
-    transition: .5s ease;
+    overflow: hidden;
 }
 
 .about-pic img:hover {
-    transform: scale(1.1);
+    animation: 2s spin linear;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 .about-text {
@@ -368,6 +373,11 @@ section {
 .block img {
     float: right;
     border-radius: 8px;
+}
+
+.free-domains img {
+    height: 96px;
+    border-radius: 100%;
 }
 
 .open-domains img {
