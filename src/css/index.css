@@ -39,7 +39,7 @@ a {
     border-radius: 2px;
     padding-bottom: 2px;
     border-bottom: 2px solid rgba(0, 102, 204, .2);
-    transition: .5s;
+    transition: .3s;
 }
 
 a:hover {
@@ -432,7 +432,6 @@ section {
     margin: 10px 0;
     cursor: pointer;
     position: relative;
-    border: none;
 }
 
 .project img {
@@ -679,6 +678,14 @@ footer {
     /* Projects */
     .project {
         width: calc(50% - 10px);
+    }
+
+    .project img {
+        transform: scale(1.1);
+    }
+
+    .project:hover img {
+        transform: scale(1.2);
     }
 
     .project::before {
