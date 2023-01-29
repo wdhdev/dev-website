@@ -570,12 +570,17 @@ footer {
     border: none;
     border-radius: 2rem;
     background-color: #0055b333;
+    color: #ffffff;
     padding: 8px 16px;
-    transition: .3s linear;
 }
 
 .source:hover {
     background-color: #0055b366;
+}
+
+.source i {
+    color: #ffffff;
+    margin-right: 4px;
 }
 
 .copyright {
