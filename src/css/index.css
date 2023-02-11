@@ -246,22 +246,12 @@ section {
 .about-pic {
     margin-right: 40px;
     border-radius: 100%;
-    overflow: hidden;
+    border: 4px solid transparent;
 }
 
 .about-pic img {
     width: 175px;
     border-radius: 100%;
-    overflow: hidden;
-}
-
-.about-pic img:hover {
-    animation: 2s spin linear;
-}
-
-@keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
 
 .about-text {
