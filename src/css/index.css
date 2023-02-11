@@ -244,14 +244,22 @@ section {
 }
 
 .about-pic {
-    margin-right: 40px;
     border-radius: 100%;
-    border: 4px solid transparent;
+    display: inline-block;
+    margin: auto;
+    margin-right: 40px;
 }
 
 .about-pic img {
+    display: block;
     width: 175px;
+    height: 175px;
     border-radius: 100%;
+    transition: .3s linear;
+}
+
+.about-pic img:hover {
+    transform: scale(1.05);
 }
 
 .about-text {
