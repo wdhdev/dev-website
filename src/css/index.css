@@ -546,14 +546,19 @@ section {
 
 .social-media a {
     margin: 0 4px;
+    border: none;
 }
 
 .social-media img {
     height: 70px;
     width: 70px;
     border-radius: 100%;
-    transition: .5s ease;
+    transition: .7s ease;
     margin-top: 16px;
+}
+
+.social-media img:hover {
+    transform: scale(1.1);
 }
 
 /* Footer */
