@@ -315,8 +315,8 @@ section {
     margin: 0 2px 6px;
 }
 
-/* Education */
-#education {
+/* Experience */
+#experience {
     transition: .3s linear;
 }
 
@@ -677,7 +677,7 @@ footer {
         text-align: center;
     }
 
-    /* Education */
+    /* Experience */
     .block {
         width: calc(100% - 20px);
         margin-left: auto;
@@ -789,7 +789,7 @@ footer {
         color: #ffffff;
     }
 
-    /* Education */
+    /* Experience */
     #education {
         background-color: #222222;
         color: #ffffff;
