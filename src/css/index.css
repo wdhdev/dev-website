@@ -405,6 +405,7 @@ section {
 
 .block h4 {
     font-size: 14px;
+    font-weight: lighter;
 }
 
 .block p {
@@ -790,7 +791,7 @@ footer {
     }
 
     /* Experience */
-    #education {
+    #experience {
         background-color: #222222;
         color: #ffffff;
     }
