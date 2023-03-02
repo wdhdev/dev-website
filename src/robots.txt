@@ -5,6 +5,7 @@ Disallow: /assets/projects/none.png
 Disallow: /css/*
 Disallow: /js/*
 Disallow: /noscript/*
+Disallow: /contact/error.html
 Disallow: /contact/success.html
 Disallow: 404.html
 Disallow: noscript.html
