@@ -511,16 +511,12 @@ section {
 .firstname:focus,
 .lastname:focus,
 .email:focus,
-.phone:focus,
-.subject:focus,
 .message:focus {
     box-shadow: 0 0 4px #222222;
 }
 
 .firstname,
-.lastname,
-.email,
-.phone {
+.lastname {
     max-width: calc(50% - 10px);
 }
 
