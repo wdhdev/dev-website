@@ -736,8 +736,7 @@ footer {
     /* Contact Me */
     .firstname,
     .lastname,
-    .email,
-    .phone {
+    .email {
         max-width: 100%;
     }
 }
@@ -826,8 +825,6 @@ footer {
     .firstname:focus,
     .lastname:focus,
     .email:focus,
-    .phone:focus,
-    .subject:focus,
     .message:focus {
         box-shadow: 0 0 4px #ffffff;
     }
