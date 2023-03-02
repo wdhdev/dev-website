@@ -431,7 +431,7 @@ section {
     margin: 10px 0;
     cursor: pointer;
     position: relative;
-    border: 2px solid #333333;
+    border: none;
 }
 
 .project img {
@@ -809,10 +809,6 @@ footer {
     #projects {
         background-color: #222222;
         color: #ffffff;
-    }
-
-    .project {
-    border: 2px solid grey;
     }
 
     /* Contact Me */
