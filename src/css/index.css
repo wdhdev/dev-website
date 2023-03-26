@@ -171,25 +171,28 @@ a:hover {
 }
 
 #home .buttons {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 #home .buttons a {
     display: inline-block;
-    margin: 15px 16px;
+    margin: 15px 10px;
     color: #ffffff;
     font-size: 15px;
     font-weight: 500;
-    width: 140px;
-    background-color: #20b2aa33;
+    background-color: #1e293b;
     border: 2px solid #999999;
-    padding: 14px 0;
-    border-radius: 30px;
+    padding: 10px 30px;
+    border-radius: 8px;
     transition: .3s linear;
 }
 
 #home .buttons a:hover {
-    background-color: #20b2aa66;
+    background-color: #334155;
+}
+
+#home .buttons i {
+    margin-left: 8px;
 }
 
 /* Sections */
@@ -366,35 +369,6 @@ section {
 
 .block a:hover {
     opacity: .8;
-}
-
-.block img {
-    float: right;
-    border-radius: 8px;
-}
-
-.free-domains img {
-    height: 96px;
-    border-radius: 8px;
-}
-
-.open-domains img {
-    height: 96px;
-    border-radius: 100%;
-}
-
-.is-a-dev img {
-    height: 96px;
-    border-radius: 8px;
-}
-
-.is-a-good-dev img {
-    height: 96px;
-    border-radius: 100%;
-}
-
-.ffa img {
-    height: 96px;
 }
 
 .block h3 {
@@ -680,10 +654,6 @@ footer {
     .block {
         width: calc(100% - 20px);
         margin-left: auto;
-    }
-
-    .block img {
-        display: none;
     }
 
     /* Projects */
