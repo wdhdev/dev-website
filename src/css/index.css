@@ -35,15 +35,15 @@ html {
 
 /* Links */
 a {
-    color: #0055b3;
+    color: #03a9f4;
     border-radius: 2px;
     padding-bottom: 2px;
     border-bottom: 2px solid rgba(0, 102, 204, .2);
-    transition: .3s;
+    transition: 1s;
 }
 
 a:hover {
-    border-color: #0055b3b2;
+    border-color: #0096ff;
 }
 
 /* Navigation Bar */
@@ -189,7 +189,8 @@ a:hover {
 /* Sections */
 section {
     padding: 90px 0;
-    background-color: #f9f9f9;
+    background-color: #222222;
+    color: #ffffff;
 }
 
 .section-title {
@@ -199,7 +200,7 @@ section {
     position: relative;
     font-size: 26px;
     padding-bottom: 20px;
-    color: #000000;
+    color: #ffffff;
     transition: .3s linear;
 }
 
@@ -208,7 +209,7 @@ section {
     position: absolute;
     width: 80px;
     height: 3px;
-    background-color: #000000;
+    background-color: #ffffff;
     bottom: 0;
     left: calc(50% - 40px);
     transition: .3s linear;
@@ -219,8 +220,8 @@ section {
     position: absolute;
     width: 16px;
     height: 10px;
-    background-color: #000000;
-    border: 4px solid #f9f9f9;
+    background-color: #ffffff;
+    border: 4px solid #222222;
     left: calc(50% - 12px);
     bottom: -7px;
     transition: .3s linear;
@@ -266,28 +267,10 @@ section {
     font-weight: 500;
 }
 
-/* .about-text h3 span:nth-child(1):after,
-.about-text h3 span:nth-child(2):after {
-    content: "";
-    width: 6px;
-    height: 6px;
-    background-color: #444444;
-    display: inline-block;
-    border-radius: 50%;
-    margin: 0 10px;
-} */
-
-.about-text p {
-    font-size: 16px;
-    text-align: justify;
-    line-height: 26px;
-    margin-top: 10px;
-}
-
 .about-sm a {
     margin-top: 8px;
     margin-right: 2px;
-    color: #000000;
+    color: #ffffff;
     font-size: 22px;
     transition: .3s linear;
     border: none;
@@ -297,29 +280,11 @@ section {
     opacity: .7;
 }
 
-.buttons {
-    margin-top: 20px;
-}
-
-.buttons a {
-    display: inline-block;
-    margin-right: 8px;
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 500;
-    background-color: #1e293b;
-    border: 2px solid #999999;
-    padding: 10px 30px;
-    border-radius: 8px;
-    transition: .3s linear;
-}
-
-.buttons a:hover {
-    background-color: #334155;
-}
-
-.buttons i {
-    margin-left: 8px;
+.about-text p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 26px;
+    margin-top: 10px;
 }
 
 /* Experience */
@@ -334,36 +299,22 @@ section {
 }
 
 .block {
-    width: calc(100% - 20px);
-    background: #ffffff;
-    border: 2px solid #444444;
+    width: calc(50% - 20px);
+    background: #44444433;
+    border: 2px solid #333333;
     margin: 10px 0;
-    padding: 30px;
+    padding: 24px;
     position: relative;
     border-radius: 8px;
+    text-align: center;
     transition: .3s linear;
 }
 
-.block::before {
-    content: "";
-    position: absolute;
-    width: 2px;
-    height: 120%;
-    background-color: #000000;
-    left: -20px;
-    top: 30%;
-    transform: rotateY(-50%);
-}
-
-.block::after {
-    content: "";
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    background-color: #0055b3;
-    left: -28px;
-    top: 30px;
-    border-radius: 50%;
+.block img {
+    height: 96px;
+    outline: 2px solid #555555;
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
 
 .block a {
@@ -376,19 +327,19 @@ section {
 }
 
 .block h3 {
-    font-size: 16px;
-    margin: 10px 0;
+    font-size: 20px;
     font-weight: 500;
 }
 
 .block h4 {
+    margin-top: 4px;
+    margin-bottom: 10px;
     font-size: 14px;
-    font-weight: lighter;
+    font-weight: 500;
 }
 
 .block p {
-    font-size: 14px;
-    color: #444444;
+    font-size: 15px;
 }
 
 /* Projects */
@@ -460,42 +411,17 @@ section {
 
 /* Footer */
 footer {
-    background-color: #000000;
+    background-color: #111111;
     color: #ffffff;
-    padding: 30px 0;
+    padding: 24px 0;
     text-align: center;
-}
-
-.social-media {
-    text-align: center;
-}
-
-.social-media a {
-    margin: 0 2px;
-    border: none;
-}
-
-.social-media img {
-    height: 55px;
-    width: 55px;
-    border-radius: 100%;
-    transition: .7s ease;
-    margin-top: 8px;
-    border: 2px solid #333333;
-}
-
-.social-media img:hover {
-    transform: scale(1.1);
-}
-
-.copyright {
-    margin-top: 20px;
 }
 
 /* Go Top Button */
 .goTop {
     display: none;
-    background: linear-gradient(30deg, #3498db, #5363d8);
+    /* background: linear-gradient(30deg, #3498db, #5363d8); */
+    background-color: #333333;
     color: #ffffff;
     position: fixed;
     bottom: 25px;
@@ -566,23 +492,19 @@ footer {
         text-align: center;
     }
 
+    .about-sm {
+        margin-top: 2px;
+    }
+
     .about-text p {
         text-align: center;
         margin-top: 14px;
     }
 
-    .about-sm {
-        margin-top: 2px;
-    }
-
-    .skills {
-        text-align: center;
-    }
-
     /* Experience */
     .block {
         width: calc(100% - 20px);
-        margin-left: auto;
+        margin: 10px auto;
     }
 
     /* Projects */
@@ -623,81 +545,5 @@ footer {
     /* Projects */
     .project {
         width: 100%;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    /* Links */
-    a {
-        color: #03a9f4;
-        border-radius: 2px;
-        padding-bottom: 2px;
-        border-bottom: 2px solid rgba(0, 102, 204, .2);
-        transition: 1s;
-    }
-
-    a:hover {
-        border-color: #0096ff;
-    }
-
-    /* Sections */
-    section {
-        background-color: #222222;
-    }
-
-    .section-title {
-        color: #ffffff;
-    }
-
-    .section-title::before {
-        background-color: #ffffff;
-    }
-
-    .section-title::after {
-        background-color: #ffffff;
-        border: 4px solid #222222;
-    }
-
-    /* About Me */
-    #about {
-        background-color: #222222;
-        color: #ffffff;
-    }
-
-    /* .about-text h3 {
-        color: #aaaaaa;
-    } */
-
-    .about-sm a {
-        color: #ffffff;
-    }
-
-    /* Experience */
-    #experience {
-        background-color: #222222;
-        color: #ffffff;
-    }
-
-    .block {
-        background: #191919;
-    }
-
-    .block::before {
-        background-color: #444444;
-    }
-
-    .block p {
-        color: #ffffff;
-    }
-
-    /* Projects */
-    #projects {
-        background-color: #222222;
-        color: #ffffff;
-    }
-
-    /* Go Top Button */
-    .goTop {
-        background: #333333;
     }
 }

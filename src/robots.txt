@@ -3,10 +3,7 @@ User-agent: *
 Disallow: /assets/404/*
 Disallow: /css/*
 Disallow: /js/*
-Disallow: /contact/error.html
-Disallow: /contact/success.html
 Disallow: 404.html
-Disallow: noscript.html
 
 Allow: /assets/*
 Allow: index.html
