@@ -159,7 +159,7 @@ a:hover {
 }
 
 .arrow {
-    background-image: url("https://static-cdn.wdh.gg/assets/arrow_down.svg");
+    background-image: url(/assets/arrow_down.svg);
     background-repeat: no-repeat;
     cursor: pointer;
     height: 60px;
